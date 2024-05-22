@@ -5,7 +5,7 @@ image: /portfolio/assets/img/spotify/spotify-icon.png
 description: Redesign of the Spotify Desktop App. New, improved version of the most popular music streaming platform.
 ---
 
-![Spotify Redesign project thumbnail](/portfolio/assets/img/spotify/cover.png)
+![Spotify Redesign project thumbnail](https://i.imgur.com/PWXaCwx.png)
 
 {% include tags.html source=site.data.projects.spotify.tags %}
 
