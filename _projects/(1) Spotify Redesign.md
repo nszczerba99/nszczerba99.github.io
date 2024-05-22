@@ -1,7 +1,7 @@
 ---
 name: Spotify Redesign
 tools: []
-image: /portfolio/assets/img/spotify/spotify-icon.png
+image: https://i.imgur.com/KVVMtgb.png
 description: Redesign of the Spotify Desktop App. New, improved version of the most popular music streaming platform.
 ---
 
@@ -29,7 +29,7 @@ As illustrated above, users had numerous complaints across various areas of the 
 
 Once I pinpointed the most pressing issues to address, I delved into ideation to devise potential solutions. This phase involved **collaborative brainstorming session** with guidance from my mentor.
 
-![Brainstorming session](/portfolio/assets/img/spotify/brainstorm.jpg)
+![Brainstorming session](https://i.imgur.com/oQUd7A8.jpg)
 
 Some solutions were readily apparent or had been previously suggested by users, while others required deeper consideration. By the end of our session, we managed to craft solutions for the most critical user issues (grey sticky notes in the [affinity map](#research)).
 
@@ -46,7 +46,7 @@ To address this, I added **a new tile** next to the *Latest episode* called *Con
 
 Before           | After
 :-------------------------:|:-------------------------:
-![Podcast page before](/portfolio/assets/img/spotify/podcast-page-old.png) | ![Podcast page's new layout](/portfolio/assets/img/spotify/podcast-page-new.png)
+![Podcast page before](https://i.imgur.com/jPhPT2C.png) | ![Podcast page's new layout](https://i.imgur.com/OcJhlfd.png)
 
 ### Podcasts in folders
 
@@ -54,8 +54,8 @@ I also introduced a way for users to **group their podcasts**, not just individu
 
  <table>
   <tr>
-    <td><img src="/portfolio/assets/img/spotify/podcast-folders.png"></td>
-    <td><img src="/portfolio/assets/img/spotify/podcast-folders2.png"></td>
+    <td><img src="https://i.imgur.com/TSYI9Qr.png"></td>
+    <td><img src="https://i.imgur.com/A164nVp.png"></td>
   </tr>
  </table>
 
@@ -64,7 +64,7 @@ I also introduced a way for users to **group their podcasts**, not just individu
 To address the common complaint about the lack of separation between music and podcasts, I ensured that podcast entities were easily **distinguishable** from playlists and other content.\
 I proposed **three designs** for how podcasts/podcast episodes should be presented on the Home page.
 
-![Podcast new look](/portfolio/assets/img/spotify/new-podcast-look.png)
+![Podcast new look](https://i.imgur.com/lX0UfBM.png)
 
 ### New Home sections
 
@@ -74,14 +74,14 @@ In the designs presented below, you'll notice that I also added some **customiza
 - **drag icons** next to each section allowing users to reorder them
 - **close buttons** letting users hide certain sections from the Home screen.
 
-![Suggested podcasts section](/portfolio/assets/img/spotify/suggested-podcasts.png)
-![More like X podcast section](/portfolio/assets/img/spotify/more-like-podcast.png)
+![Suggested podcasts section](https://i.imgur.com/JMXRQJN.png)
+![More like X podcast section](https://i.imgur.com/oSOIMdT.png)
 
 ### *Choose what to see on Home* panel
 
 Similarly, I designed a new "Choose what to see" panel, positioned at the bottom of the Home page. This feature would empower users to select which sections exactly they want to see on the Home page.
 
-![Choose what to see on Home panel](/portfolio/assets/img/spotify/choose-home-panel.png)
+![Choose what to see on Home panel](https://i.imgur.com/WDhm5GR.png)
 
 ### *Liked Songs* filters
 
