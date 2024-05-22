@@ -5,7 +5,7 @@ image: https://i.imgur.com/KVVMtgb.png
 description: Redesign of the Spotify Desktop App. New, improved version of the most popular music streaming platform.
 ---
 
-![Spotify Redesign project thumbnail](https://i.imgur.com/PWXaCwx.png)
+![Spotify Redesign project thumbnail](https://i.imgur.com/81QiOBv.png)
 
 {% include tags.html source=site.data.projects.spotify.tags %}
 
