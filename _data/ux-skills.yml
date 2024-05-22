@@ -1,0 +1,11 @@
+- name: Figma
+  percentage: 95
+  color: primary
+
+- name: Balsamiq
+  percentage: 65
+  color: info
+
+- name: CorelDRAW
+  percentage: 70
+  color: success

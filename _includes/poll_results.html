@@ -1,0 +1,30 @@
+<div class="bg-themed rounded p-3 my-4">
+    <div class="text-center" style="font-size: 1.3rem;">{{ include.title }}</div>
+    <div class="mt-3 d-flex justify-content-center" style="height: 200px;">
+        {% for result in include.source %}
+            <div class="mr-4 h-100 d-flex flex-column" style="width: 120px;">
+                <p class="text-center mt-auto mb-1">{{result.percentage}}%</p>
+                {% if result.percentage == 0 %}
+                    <div
+                        class="text-center border border-dark rounded"
+                        style="height: 2%; background-color: #{{result.color}};"
+                    >
+                {% else %}
+                    <div
+                        class="text-center border border-dark rounded"
+                        style="height: {{ result.percentage}}%; background-color: #{{result.color}};"
+                    >
+                {% endif %}
+                </div>
+                <p class="text-center mt-2">{{result.name}}</p>
+            </div>
+        {% endfor %}
+    </div>
+    {% if include.images %}
+    <div class="d-flex justify-content-center">
+        {% for result in include.source %}
+            <img class="mr-4 ml-0" src="{{result.image}}" alt="{{result.name}} image" style="max-width: 120px">
+        {% endfor %} 
+    </div>
+    {% endif %}
+</div>

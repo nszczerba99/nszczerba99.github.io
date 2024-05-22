@@ -1,0 +1,7 @@
+- name: Version 1
+  percentage: 40
+  color: 961a46
+
+- name: Version 2
+  percentage: 60
+  color: 4a1bdb

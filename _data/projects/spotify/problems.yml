@@ -1,0 +1,22 @@
+- title: Revisiting podcast issues
+  desc: Users encountered difficulties navigating back to podcasts,
+        as there was no way to group them in the Library. Moreover, returning to a specific episode,
+        especially if it wasn't the latest one, was inconvenient and often required scrolling
+        through numerous episodes to find the right one.
+
+- title: Chaotic places
+  desc: Both the Library and Home tabs were perceived as chaotic by users,
+        with too much content crammed in. For the Home tab, users felt there were too many sections
+        with no way to remove or customize them. Additionally, podcasts and music were mixed together,
+        while users preferred them to be separate.
+
+- title: Liked Songs confusion
+  desc: Various users used the Liked Songs playlist differently, with some not using it at all,
+        others using it as a catch-all for unsorted songs, and some storing all their songs there.
+        For those with many songs, the layout felt problematic as it lacked organization options
+        like sorting by artist, album, or genre.
+
+- title: Bad recommendations
+  desc: Users criticized the poor music recommendations, especially in the Daily Mixes section.
+        They also desired an easier way to exclude specific artists from recommendations.
+        Additionally, there was no section for podcast recommendations at all.
