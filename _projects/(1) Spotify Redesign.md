@@ -106,10 +106,10 @@ To evaluate my designs, I combined concept testing with A/B testing. I sent an o
 
 {% include poll_results.html images=false title="Liked Songs filters" source=site.data.projects.spotify.liked-songs-res %}
 
-{% include poll_results.html images=true title="New podcast look" source=site.data.projects.spotify.podcast-icons-res %}
+{% include poll_results.html images=true title="Podcast new look" source=site.data.projects.spotify.podcast-icons-res %}
 
 As shown above, the winners tuned out to be:
-- Version 1 of *Liked Songs* filters
+- Version 2 of *Liked Songs* filters
 - Version 2 of the new podcast look.
 
 Additionally, there were several comments on other design aspects. The "Choose what to see" panel on the Home screen received a lot of praise. However, it was suggested that the separation of podcasts and music still needed improvement, with recommendations to create separate Home and Search for these two categories.
