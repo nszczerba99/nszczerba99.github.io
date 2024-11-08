@@ -8,9 +8,9 @@ weight: 3
 # **About Me**
 
 Hi, I'm **{{ site.author.name }}** :wave:,<br>
-Currently, I work as a Software Engineer, with a particular passion for the frontend aspect. I've always been interested in visual experiences and their impact on users. Recently, I have been deeply immersed in UX Design, learning how to enhance user interaction and satisfaction through thoughtful design process.
+I'm a Software Engineer by background, with a strong passion for frontend development and a long-standing interest in how visual experiences impact users. Over time, I've developed a deep understanding of UX Design and how thoughtful design choices enhance user interaction and satisfaction.
 
-I believe my engineering background gives me a unique perspective on UX design and enables me to better understand and collaborate with engineering teams that UX designers so frequently work together with.
+I believe my engineering background gives me a unique perspective on UX, enabling me to bridge the gap between design and development teams. I bring a collaborative approach that ensures user-centered solutions are both visually appealing and technically feasible.
 
 <div class="row">
 {% include about/skills.html title="Design skills" source=site.data.ux-skills %}

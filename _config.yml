@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Natalia Szczerba
 description         : >-
-                      Hi, I'm Natalia :wave:, currently a Software Engineer and an aspiring UX Designer. I am passionate about creating seamless and user-friendly digital experiences.
+                      Hi, I'm Natalia :wave:, a Software Engineer by background and an aspiring UX Designer. I am passionate about creating seamless and user-friendly digital experiences.
 baseurl             : "/portfolio"
 url                 : "https://nszczerba99.github.io"
 remote_theme        : YoussefRaafatNasry/portfolYOU
