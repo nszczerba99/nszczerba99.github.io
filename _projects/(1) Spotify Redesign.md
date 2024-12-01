@@ -34,7 +34,7 @@ Once I pinpointed the most pressing issues to address, I delved into ideation to
 Some solutions were readily apparent or had been previously suggested by users, while others required deeper consideration. By the end of our session, we managed to craft solutions for the most critical user issues (grey sticky notes in the [affinity map](#research)).
 
 
-## Wireframing
+## Redesigning
 
 During this phase, I utilized the *Figma* tool for high-fidelity prototyping. Below are a few of the changes I successfully designed.
 
