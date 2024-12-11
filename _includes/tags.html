@@ -1,8 +1,8 @@
 <div class="col-lg">
     <div class="row justify-content-between">
         {% for tag in include.source %}
-            <div class="col-sm-auto rounded-pill py-2 px-3 mr-2 mb-3 text-center bg-auto-themed {{tag.color}}">
-                <span class="font-weight-bold">{{ tag.name }}:</span> <span>{{tag.value}}</span>
+            <div class="col-sm-auto rounded-pill py-2 px-3 me-1 mb-2 text-center bg-primary small text-white">
+                <strong>{{ tag.name }}:</strong> <span>{{tag.value}}</span>
             </div>
         {% endfor %}
     </div>

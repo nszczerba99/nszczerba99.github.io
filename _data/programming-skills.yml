@@ -1,15 +1,15 @@
 - name: HTML5/CSS3
-  percentage: 90
+  percentage: 100
   color: danger
 
 - name: JavaScript/TypeScript
   percentage: 100
-  color: warning
+  color: primary
 
 - name: React
   percentage: 80
-  color: success
+  color: info
 
 - name: Python
   percentage: 80
-  color: info
+  color: success

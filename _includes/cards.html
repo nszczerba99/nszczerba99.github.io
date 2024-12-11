@@ -1,13 +1,23 @@
 <div class="col-lg">
     <div class="row d-flex align-items-stretch">
+        {% assign delay = 0 %}
         {% for card in include.source %}
-            <div class="col-md-12 col-lg-6 p-0 mb-3">
-                <div class="mr-3 bg-auto-themed grey p-3 rounded h-100">
+            {% assign delay = delay | plus: 100 %}
+            <div class="col-md-12 col-lg-6 p-0 mb-3 wow animate__animated animate__pulse"  data-wow-delay="{{ delay }}ms">
+                <div class="card h-100 me-3">
+                    <div class="card-body">
+                        {% if card.title %}
+                            <h5 class="card-title">{{card.title}}</h5>
+                        {% endif %}
+                      <p class="card-text">{{card.desc}}</p>
+                    </div>
+                </div>
+                <!-- <div class="me-3 bg-themed p-3 rounded h-100">
                     {% if card.title %}
                         <div class="card-title">{{card.title}}</div>
                     {% endif %}
                     <p>{{card.desc}}</p>
-                </div>
+                </div> -->
             </div>
         {% endfor %}
     </div>

@@ -1,19 +1,14 @@
 - name: "Project"
   value: "App Redesign"
-  color: "blue"
 
 - name: "Role"
   value: "UX/UI Designer"
-  color: "purple"
 
 - name: "Designer"
   value: "Natalia Szczerba"
-  color: "red"
 
 - name: "Duration"
   value: "3 months"
-  color: "orange"
 
 - name: "Tools"
   value: "Figma"
-  color: "green"

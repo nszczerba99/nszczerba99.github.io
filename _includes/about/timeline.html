@@ -1,0 +1,15 @@
+<div class="col mt-4">
+  <div class="timeline-body bg-themed">
+    {% assign delay = 0 %}
+    {% for item in site.data.timeline %}
+        {% assign delay = delay | plus: 200 %}
+        <div class="timeline-item wow animate__animated animate__fadeIn" data-wow-delay="{{ delay }}ms">
+            <div class="content">
+                <h2>{{ item.title }}</h2>
+                <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+                <p>{{ item.description }}</p>
+            </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

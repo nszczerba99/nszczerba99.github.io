@@ -5,6 +5,8 @@ image: https://i.imgur.com/KVVMtgb.png
 description: Redesign of the Spotify Desktop App. New, improved version of the most popular music streaming platform.
 ---
 
+{% include projects/back_to_projects.html %}
+
 ![Spotify Redesign project thumbnail](https://i.imgur.com/81QiOBv.png)
 
 {% include tags.html source=site.data.projects.spotify.tags %}
@@ -44,20 +46,29 @@ Previously, many podcasts were configured to display **only the latest episode a
 
 To address this, I added **a new tile** next to the *Latest episode* called *Continue listening*. This solution caters to both users interested in the latest episodes and those wanting to resume their last listened episode.
 
-Before           | After
-:-------------------------:|:-------------------------:
-![Podcast page before](https://i.imgur.com/jPhPT2C.png) | ![Podcast page's new layout](https://i.imgur.com/OcJhlfd.png)
+<div class="row mt-4">
+    <div class="col-sm-12 col-md-6 wow animate__animated animate__fadeInLeft" data-wow-delay=".15s">
+        <p class="lead text-center">Before</p>
+        <img src="https://i.imgur.com/jPhPT2C.png" alt="Podcast page before">
+    </div>
+    <div class="col-sm-12 col-md-6 wow animate__animated animate__fadeInRight" data-wow-delay=".4s">
+        <p class="lead text-center">After</p>
+        <img src="https://i.imgur.com/OcJhlfd.png" alt="Podcast page's new layout">
+    </div>
+</div>
 
 ### Podcasts in folders
 
 I also introduced a way for users to **group their podcasts**, not just individual episodes. Users could now add their desired podcasts to **folders**, similar to how they organize playlists.
 
- <table>
-  <tr>
-    <td><img src="https://i.imgur.com/TSYI9Qr.png"></td>
-    <td><img src="https://i.imgur.com/A164nVp.png"></td>
-  </tr>
- </table>
+ <div class="row mt-4">
+    <div class="col-sm-12 col-md-6">
+        <img src="https://i.imgur.com/TSYI9Qr.png" alt="Folder with podcasts in a library">
+    </div>
+    <div class="col-sm-12 col-md-6">
+        <img src="https://i.imgur.com/A164nVp.png" alt="View inside a folder with podcasts">
+    </div>
+</div>
 
 ### Podcast new look
 

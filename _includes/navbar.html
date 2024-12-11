@@ -1,0 +1,101 @@
+<nav class="navbar navbar-expand-md navbar-themed">
+    <a class="navbar-brand" href="{{ site.baseurl }}/"><h5><b>{{ site.title }}</b></h5></a>
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto mt-2 mt-lg-0">
+  
+        {%- assign html_pages = site.html_pages | sort: 'weight' -%}
+        {%- assign filtered_pages = "" | split: "" -%}
+  
+        {%- for html_page in html_pages -%} 
+          {%- assign exclude = false -%}
+  
+          {%- for exclude_path in site.nav_exclude -%}
+            <!-- excluding specified pages -->
+            {%- if exclude_path == html_page.path -%}
+              {%- assign exclude = true -%}
+              {%- break -%}
+            {%- elsif exclude_path contains '**' -%}
+              {%- assign match = exclude_path | remove: '**' -%}
+              {%- if html_page.path contains match -%}
+                {%- assign exclude = true -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endif -%}
+  
+          {%- endfor -%}
+  
+          {%- unless exclude -%}
+            {%- assign filtered_pages = filtered_pages | push: html_page -%}
+          {%- endunless -%}
+  
+        {%- endfor -%}
+        
+        <!-- checking active tab -->
+        {% for html_page in filtered_pages %}  
+  
+          {%- if page.url contains html_page.url -%}
+            {%- assign active_status = "active" -%}
+          {%- else -%}
+            {%- assign active_status = "" -%}
+          {%- endif -%}
+  
+          {% assign subpages = false %}
+          
+          {%- if html_page.external_url -%}
+            {%- assign url = html_page.external_url -%}
+          {%- else -%}
+            {%- assign url = html_page.url | relative_url -%}
+            {% for collection in site.collections %}
+              <!-- checking if collection urls start with page url -->
+              {% assign check_array = collection.permalink | split: html_page.url %}
+              {% if check_array[0] == blank %}
+                {% assign subpages = site[collection.label] %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {%- endif -%}
+
+          {% if subpages %}
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle {{ active_status }}" role="link" href="{{ url }}", aria-expanded="false">
+              {{ html_page.title }}
+            </a>
+            <ul class="dropdown-menu">
+              <!-- prettyfying subpage title -->
+              {% for subpage in subpages %}
+                {% assign tmp_arr = subpage.title | split: ")" %}
+                {% assign title_arr = tmp_arr[1] | split: " " %}
+                {% assign title_arr_upper = "" | split: "" %}
+                {% for word in title_arr %}
+                  {% assign word_upper = word | capitalize %}
+                  {% assign title_arr_upper = title_arr_upper | push: word_upper %}
+                {% endfor %}
+                {% assign title = title_arr_upper | join: " " %}
+
+                <!-- checking active subpage -->
+                {%- if page.url == subpage.url -%}
+                  {%- assign active_sub = "active" -%}
+                {%- else -%}
+                  {%- assign active_sub = "" -%}
+                {%- endif -%}
+
+                <li><a class="dropdown-item {{ active_sub }}" href="{{ subpage.url | relative_url}}">{{ title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          {%- else -%}
+            <a class="nav-item nav-link {{ active_status }}" href="{{ url }}" {%- if html_page.external_url and site.open_new_tab -%} target="_blank" {%- endif -%}>{{ html_page.title }}</a>
+          {%- endif -%}
+
+        {% endfor %}
+
+        <span id="theme-toggler" class="nav-item nav-link" role="button" aria-label="Change color theme" onclick="toggleTheme()"></span>
+
+      </div>
+    </div>
+  </nav>

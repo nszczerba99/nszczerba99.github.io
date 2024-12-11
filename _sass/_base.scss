@@ -1,0 +1,53 @@
+html {
+  // padding-left: calc(100vw - 100%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+.bg-light,
+.badge-light {
+  &,
+  * {
+    color: $text-black !important;
+  }
+}
+
+.bg-dark,
+.badge-dark {
+  &,
+  * {
+    color: $text-white !important;
+  }
+}
+
+//-----------------------------------
+
+@mixin underlined-link {
+    display: inline-block;
+    text-decoration: none;
+
+    &::after {
+      content: "";
+      display: block;
+      height: 0.15em;
+      margin-top: -0.15em;
+      width: 0;
+      background: $primary;
+      transition: width 0.35s;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+}
+
+.landing-proj-link {
+    @include underlined-link;
+    line-height: 36px;
+}
