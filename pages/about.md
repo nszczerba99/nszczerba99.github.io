@@ -5,6 +5,8 @@ permalink: /about/
 weight: 3
 ---
 
+{% include back_to_top_button.html %}
+
 # **About Me**
 
 Hi, I'm **{{ site.author.name }}** :wave:,<br>
