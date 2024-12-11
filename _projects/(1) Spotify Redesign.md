@@ -31,7 +31,7 @@ As illustrated above, users had numerous complaints across various areas of the 
 
 Once I pinpointed the most pressing issues to address, I delved into ideation to devise potential solutions. This phase involved **collaborative brainstorming session** with guidance from my mentor.
 
-![Brainstorming session](https://i.imgur.com/oQUd7A8.jpg)
+{% include animated_image.html src="https://i.imgur.com/oQUd7A8.jpg" alt="Brainstorming session" %}
 
 Some solutions were readily apparent or had been previously suggested by users, while others required deeper consideration. By the end of our session, we managed to craft solutions for the most critical user issues (grey sticky notes in the [affinity map](#research)).
 

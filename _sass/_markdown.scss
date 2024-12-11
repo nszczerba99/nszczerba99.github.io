@@ -99,13 +99,20 @@
     .back-link {
       --bs-icon-link-transform: translate3d(-4px, 0, 0);
       line-height: 32px;
+      &:hover::after {
+        width: calc(100% + 4px) !important;
+        margin-left: -4px;
+      }
     }
 
     #btn-back-to-top {
       position: fixed;
-      bottom: 20px;
-      right: 20px;
+      bottom: 30px;
+      right: 30px;
       display: none;
+      height: 60px;
+      width: 60px;
+      z-index: 1000;
     }
   }
   

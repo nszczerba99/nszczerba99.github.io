@@ -49,5 +49,9 @@ body {
 
 .landing-proj-link {
     @include underlined-link;
+    &:hover::after {
+      width: calc(100% + 4px);
+    }
+
     line-height: 36px;
 }
