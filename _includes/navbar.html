@@ -66,17 +66,7 @@
               {{ html_page.title }}
             </a>
             <ul class="dropdown-menu">
-              <!-- prettyfying subpage title -->
               {% for subpage in subpages %}
-                {% assign tmp_arr = subpage.title | split: ")" %}
-                {% assign title_arr = tmp_arr[1] | split: " " %}
-                {% assign title_arr_upper = "" | split: "" %}
-                {% for word in title_arr %}
-                  {% assign word_upper = word | capitalize %}
-                  {% assign title_arr_upper = title_arr_upper | push: word_upper %}
-                {% endfor %}
-                {% assign title = title_arr_upper | join: " " %}
-
                 <!-- checking active subpage -->
                 {%- if page.url == subpage.url -%}
                   {%- assign active_sub = "active" -%}
@@ -84,7 +74,7 @@
                   {%- assign active_sub = "" -%}
                 {%- endif -%}
 
-                <li><a class="dropdown-item {{ active_sub }}" href="{{ subpage.url | relative_url}}">{{ title }}</a></li>
+                <li><a class="dropdown-item {{ active_sub }}" href="{{ subpage.url | relative_url}}">{{ subpage.name }}</a></li>
               {% endfor %}
             </ul>
           </div>

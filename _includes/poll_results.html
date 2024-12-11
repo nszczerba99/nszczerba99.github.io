@@ -1,10 +1,8 @@
 <div class="bg-themed-contrast border-themed rounded p-3 my-4">
     <div class="text-center" style="font-size: 1.3rem;">{{ include.title }}</div>
     <div class="mt-3 d-flex justify-content-center" style="height: 200px;">
-        {% assign delay = -200 %}
         {% for result in include.source %}
-            {% assign delay = delay | plus: 200 %}
-            <div class="me-4 h-100 d-flex flex-column  wow animate__animated animate__fadeInUp" style="width: 120px;" data-wow-delay="{{delay}}ms">
+            <div class="me-4 h-100 d-flex flex-column  wow animate__animated animate__fadeInUp" style="width: 120px;" data-wow-delay="100ms">
                 <p class="text-center mt-auto mb-1">{{result.percentage}}%</p>
                 {% if result.percentage == 0 %}
                     <div
@@ -23,11 +21,9 @@
         {% endfor %}
     </div>
     {% if include.images %}
-        {% assign delay = 200 %}
         <div class="d-flex justify-content-center">
             {% for result in include.source %}
-                {% assign delay = delay | plus: 200 %}
-                <img class="me-4 ms-0 wow animate__animated animate__fadeInUp" src="{{result.image}}" alt="{{result.name}} image" style="max-width: 120px" data-wow-delay="{{delay}}ms">
+                <img class="me-4 ms-0 wow animate__animated animate__fadeInUp" src="{{result.image}}" alt="{{result.name}} image" style="max-width: 120px" data-wow-delay="300ms">
             {% endfor %} 
         </div>
     {% endif %}
