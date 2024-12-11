@@ -63,10 +63,10 @@ I also introduced a way for users to **group their podcasts**, not just individu
 
  <div class="row mt-4">
     <div class="col-sm-12 col-md-6">
-        <img src="https://i.imgur.com/TSYI9Qr.png" alt="Folder with podcasts in a library">
+        {% include animated_image.html src="https://i.imgur.com/TSYI9Qr.png" alt="Folder with podcasts in a library" %}
     </div>
     <div class="col-sm-12 col-md-6">
-        <img src="https://i.imgur.com/A164nVp.png" alt="View inside a folder with podcasts">
+        {% include animated_image.html src="https://i.imgur.com/A164nVp.png" alt="View inside a folder with podcasts" %}
     </div>
 </div>
 
@@ -75,7 +75,8 @@ I also introduced a way for users to **group their podcasts**, not just individu
 To address the common complaint about the lack of separation between music and podcasts, I ensured that podcast entities were easily **distinguishable** from playlists and other content.\
 I proposed **three designs** for how podcasts/podcast episodes should be presented on the Home page.
 
-![Podcast new look](https://i.imgur.com/lX0UfBM.png)
+<!-- ![Podcast new look](https://i.imgur.com/lX0UfBM.png) -->
+{% include animated_image.html src="https://i.imgur.com/lX0UfBM.png" alt="Podcast new look" %}
 
 ### New Home sections
 
@@ -85,14 +86,17 @@ In the designs presented below, you'll notice that I also added some **customiza
 - **drag icons** next to each section allowing users to reorder them
 - **close buttons** letting users hide certain sections from the Home screen.
 
-![Suggested podcasts section](https://i.imgur.com/JMXRQJN.png)
-![More like X podcast section](https://i.imgur.com/oSOIMdT.png)
+{% include animated_image.html src="https://i.imgur.com/JMXRQJN.png" alt="Suggested podcasts section" %}
+
+{% include animated_image.html src="https://i.imgur.com/oSOIMdT.png" alt="More like X podcast section" %}
+
 
 ### *Choose what to see on Home* panel
 
 Similarly, I designed a new "Choose what to see" panel, positioned at the bottom of the Home page. This feature would empower users to select which sections exactly they want to see on the Home page.
 
-![Choose what to see on Home panel](https://i.imgur.com/WDhm5GR.png)
+{% include animated_image.html src="https://i.imgur.com/WDhm5GR.png" alt="Choose what to see on Home panel" %}
+
 
 ### *Liked Songs* filters
 
