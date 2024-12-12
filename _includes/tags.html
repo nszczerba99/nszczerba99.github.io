@@ -1,7 +1,12 @@
 <div class="col-lg">
     <div class="row justify-content-between">
+        {% assign delay = 100 %}
         {% for tag in include.source %}
-            <div class="col-sm-auto rounded-pill py-2 px-3 me-1 mb-2 text-center small tag">
+            {% assign delay = delay | plus: 200 %}
+            <div
+                class="col-sm-auto rounded-pill py-2 px-3 me-1 mb-2 text-center small tag wow animate__animated animate__fadeIn"
+                data-wow-delay="{{ delay }}ms"
+            >
                 <strong>{{ tag.name }}:</strong> <span>{{tag.value}}</span>
             </div>
         {% endfor %}
