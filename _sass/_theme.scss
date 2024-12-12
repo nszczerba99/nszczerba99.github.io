@@ -55,6 +55,7 @@
 }
 
 @mixin themed-border($light-value, $dark-value) {
+  border: solid 1px;
   @include themed(border-color, $light-value, $dark-value);
 }
 
@@ -63,19 +64,5 @@
 }
 
 .border-themed {
-  border: solid 1px;
   @include themed-border($border-light, $border-dark);
 }
-
-
-// .themed-bg {
-//     &.blue {
-//         @include themed-bg(white, white);
-//       }
-// }
-
-// .themed-text {
-//     &.blue {
-//         @include themed-text(white, white);
-//       }
-// }

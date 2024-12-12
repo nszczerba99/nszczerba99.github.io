@@ -114,5 +114,10 @@
       width: 60px;
       z-index: 1000;
     }
+
+    .tag {
+      @include themed-border($primary, $light-blue);
+      @include themed-text($primary, $light-blue);
+    }
   }
   

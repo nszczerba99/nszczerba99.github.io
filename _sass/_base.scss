@@ -38,8 +38,8 @@ body {
       height: 0.15em;
       margin-top: -0.15em;
       width: 0;
-      background: $primary;
       transition: width 0.35s;
+      @include themed-bg(#0a58ca, $light-blue);
     }
 
     &:hover::after {
