@@ -113,6 +113,10 @@
       height: 60px;
       width: 60px;
       z-index: 1000;
+
+      @include media-breakpoint-up(xxl) {
+        right: calc((100vw - 1320px)/2 - 10px);
+      }
     }
 
     .tag {

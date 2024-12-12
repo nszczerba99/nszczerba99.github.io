@@ -1,30 +1,30 @@
 <div class="bg-themed-contrast border-themed rounded p-3 my-4 wow animate__animated animate__pulse" data-wow-delay="0.3s">
     <div class="text-center" style="font-size: 1.3rem;">{{ include.title }}</div>
-    <div class="mt-3 d-flex justify-content-center" style="height: 200px;">
+    <div class="mt-5 d-flex justify-content-center">
         {% for result in include.source %}
-            <div class="me-4 h-100 d-flex flex-column " style="width: 120px;">
-                <p class="text-center mt-auto mb-1">{{result.percentage}}%</p>
-                {% if result.percentage == 0 %}
-                    <div
-                        class="text-center border border-dark rounded"
-                        style="height: 2%; background-color: #{{result.color}};"
-                    >
-                {% else %}
-                    <div
-                        class="text-center border border-dark rounded"
-                        style="height: {{ result.percentage}}%; background-color: #{{result.color}};"
-                    >
-                {% endif %}
+            <div class="me-4" style="max-width: 120px;">
+                <div class="d-flex flex-column" style="height: 150px">
+                    {% if result.percentage == 0 %}
+                        <div
+                            class="text-center border border-dark rounded mt-auto"
+                            style="height: 2%; background-color: #{{result.color}};"
+                        >
+                            <p class="text-center mb-1" style="margin-top: -30px">{{result.percentage}}%</p>
+                        </div>
+                    {% else %}
+                        <div
+                            class="text-center border border-dark rounded mt-auto"
+                            style="height: {{ result.percentage}}%; background-color: #{{result.color}};"
+                        >
+                            <p class="text-center" style="margin-top: -30px">{{result.percentage}}%</p>
+                        </div>
+                    {% endif %}
                 </div>
                 <p class="text-center mt-2">{{result.name}}</p>
+                {% if include.images %}
+                    <img src="{{result.image}}" alt="{{result.name}} image">
+                {% endif %}
             </div>
         {% endfor %}
     </div>
-    {% if include.images %}
-        <div class="d-flex justify-content-center">
-            {% for result in include.source %}
-                <img class="me-4 ms-0" src="{{result.image}}" alt="{{result.name}} image" style="max-width: 120px">
-            {% endfor %} 
-        </div>
-    {% endif %}
 </div>
