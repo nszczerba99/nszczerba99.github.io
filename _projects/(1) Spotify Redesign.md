@@ -64,6 +64,7 @@ Once I pinpointed the most pressing issues to address, I delved into ideation to
 
 Some solutions were readily apparent or had been previously suggested by users, while others required deeper consideration. By the end of our session, we managed to craft solutions for the most critical user issues (grey sticky notes in the affinity map).
 
+
 ## Redesigning
 
 During this phase, I utilized the *Figma* tool for high-fidelity prototyping. Below are a few of the changes I successfully designed.
@@ -74,16 +75,16 @@ Previously, many podcasts were configured to display **only the latest episode a
 
 To address this, I added **a new tile** next to the *Latest episode* called *Continue listening*. This solution caters to both users interested in the latest episodes and those wanting to resume their last listened episode.
 
-<div class="row mt-4">
-    <div class="col-sm-12 col-md-6 wow animate__animated animate__fadeInLeft" data-wow-delay=".15s">
-        <p class="lead text-center">Before</p>
-        <img src="https://i.imgur.com/jPhPT2C.png" alt="Podcast page before">
-    </div>
-    <div class="col-sm-12 col-md-6 wow animate__animated animate__fadeInRight" data-wow-delay=".4s">
-        <p class="lead text-center">After</p>
-        <img src="https://i.imgur.com/OcJhlfd.png" alt="Podcast page's new layout">
-    </div>
+
+<div class="wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
+    <p class="lead text-center">Before</p>
+    <img src="https://i.imgur.com/jPhPT2C.png" alt="Podcast page before">
 </div>
+<div class="wow animate__animated animate__fadeInRight mt-3" data-wow-delay=".5s">
+    <p class="lead text-center">After</p>
+    <img src="https://i.imgur.com/OcJhlfd.png" alt="Podcast page's new layout">
+</div>
+
 
 ### Podcasts in folders
 
