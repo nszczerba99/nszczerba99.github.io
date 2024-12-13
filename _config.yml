@@ -2,7 +2,7 @@
 title               : Natalia Szczerba
 description         : >-
                       Hi, I'm Natalia :wave:, a Software Engineer by background and an aspiring UX Designer. I am passionate about creating seamless and user-friendly digital experiences.
-baseurl             : "/portfolio"
+baseurl             : ""
 url                 : "https://nszczerba99.github.io"
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)

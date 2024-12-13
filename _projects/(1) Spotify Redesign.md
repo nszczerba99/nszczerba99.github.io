@@ -123,7 +123,7 @@ To evaluate my designs, I combined concept testing with A/B testing. I sent an o
 
 {% include poll_results.html images=true title="Podcast new look" source=site.data.projects.spotify.podcast-icons-res %}
 
-As shown above, the winners tuned out to be:
+As shown above, the winners turned out to be:
 - Version 2 of *Liked Songs* filters
 - Version 2 of the new podcast look.
 
