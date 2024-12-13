@@ -31,19 +31,19 @@ The first step was to conduct user research to identify the most common pain poi
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://i.imgur.com/78KFkEh.png" class="d-block mx-auto" height="700" alt="Users' issues with podcasts">
+      <img src="https://i.imgur.com/78KFkEh.png" class="d-block w-100" alt="Users' issues with podcasts">
     </div>
     <div class="carousel-item">
-      <img src="https://i.imgur.com/HnnW6a8.png" class="d-block mx-auto" height="700" alt="Users' issues with Home">
+      <img src="https://i.imgur.com/5WxukgE.png" class="d-block w-100" alt="Users' issues with Home">
     </div>
     <div class="carousel-item">
-      <img src="https://i.imgur.com/Ikr1wXe.png" class="d-block mx-auto" height="700" alt="Users' issues with Search">
+      <img src="https://i.imgur.com/nnWSFjO.png" class="d-block w-100" alt="Users' issues with Search">
     </div>
         <div class="carousel-item">
-      <img src="https://i.imgur.com/Tuc1ZgR.png" class="d-block mx-auto" height="700" alt="Users' issues with Library">
+      <img src="https://i.imgur.com/X6xvxsk.png" class="d-block w-100" alt="Users' issues with Library">
     </div>
         <div class="carousel-item">
-      <img src="https://i.imgur.com/EeoUA2B.png" class="d-block mx-auto" height="700" alt="Users' other issues">
+      <img src="https://i.imgur.com/wTmWgYS.png" class="d-block w-100" alt="Users' other issues">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide="prev">
@@ -80,7 +80,7 @@ To address this, I added **a new tile** next to the *Latest episode* called *Con
     <p class="lead text-center">Before</p>
     <img src="https://i.imgur.com/jPhPT2C.png" alt="Podcast page before">
 </div>
-<div class="wow animate__animated animate__fadeInRight mt-3" data-wow-delay=".5s">
+<div class="wow animate__animated animate__fadeInRight mt-3 mb-4" data-wow-delay=".4s">
     <p class="lead text-center">After</p>
     <img src="https://i.imgur.com/OcJhlfd.png" alt="Podcast page's new layout">
 </div>
