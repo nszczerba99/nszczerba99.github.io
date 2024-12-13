@@ -31,19 +31,19 @@ The first step was to conduct user research to identify the most common pain poi
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://i.imgur.com/78KFkEh.png" class="d-block mx-auto my-0" height="700" alt="Users' issues with podcasts">
+      <img src="https://i.imgur.com/78KFkEh.png" class="d-block mx-auto" height="700" alt="Users' issues with podcasts">
     </div>
     <div class="carousel-item">
-      <img src="https://i.imgur.com/BEvxQ6r.png" class="d-block mx-auto my-0" height="700" alt="Users' issues with Home">
+      <img src="https://i.imgur.com/BEvxQ6r.png" class="d-block mx-auto" height="700" alt="Users' issues with Home">
     </div>
     <div class="carousel-item">
-      <img src="https://i.imgur.com/zhmftg0.png" class="d-block mx-auto my-0" height="700" alt="Users' issues with Search">
+      <img src="https://i.imgur.com/zhmftg0.png" class="d-block mx-auto" height="700" alt="Users' issues with Search">
     </div>
         <div class="carousel-item">
-      <img src="https://i.imgur.com/Tuc1ZgR.png" class="d-block mx-auto my-0" height="700" alt="Users' issues with Library">
+      <img src="https://i.imgur.com/Tuc1ZgR.png" class="d-block mx-auto" height="700" alt="Users' issues with Library">
     </div>
         <div class="carousel-item">
-      <img src="https://i.imgur.com/3EbrmUS.png" class="d-block mx-auto my-0" height="700" alt="Users' other issues">
+      <img src="https://i.imgur.com/3EbrmUS.png" class="d-block mx-auto" height="700" alt="Users' other issues">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide="prev">
