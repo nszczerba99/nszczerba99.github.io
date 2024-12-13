@@ -21,7 +21,40 @@ This project was part of a **mentorship program** at my workplace, where I was p
 
 The first step was to conduct user research to identify the most common pain points of the Spotify app. I **interviewed several individuals** and then synthesized the information into an **affinity diagram** to identify key patterns and insights.
 
-<div style="padding:64.64% 0 0 0;position:relative;margin-bottom: 24px"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fboard%2FgyJSaVBMvXC0tN4Uggo998%2FSpotify-Redesign-Affinity-Diagram%3Fnode-id%3D0%253A1%26t%3DbTZ6O7bZ8Q91j7vo-1" allowfullscreen></iframe></div>
+<div id="researchCarouselIndicators" class="carousel slide carousel-dark bg-light mt-1 mb-4">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://imgur.com/78KFkEh" alt="Users' issues with podcasts">
+    </div>
+    <div class="carousel-item">
+      <img src="https://imgur.com/BEvxQ6r" alt="Users' issues with Home">
+    </div>
+    <div class="carousel-item">
+      <img src="https://imgur.com/zhmftg0" alt="Users' issues with Search">
+    </div>
+        <div class="carousel-item">
+      <img src="https://imgur.com/Tuc1ZgR" alt="Users' issues with Library">
+    </div>
+        <div class="carousel-item">
+      <img src="https://imgur.com/3EbrmUS" alt="Users' other issues">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 As illustrated above, users had numerous complaints across various areas of the app, with **podcasts** being a common source of frustration. Below are some **key highlights** of the most prevalent pain points.
 

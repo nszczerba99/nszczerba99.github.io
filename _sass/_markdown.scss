@@ -123,5 +123,9 @@
       @include themed-border($primary, $light-blue);
       @include themed-text($primary, $light-blue);
     }
+
+    .carousel .carousel-inner {
+      height: 700px;
+    }
   }
   
