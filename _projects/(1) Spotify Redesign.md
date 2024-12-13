@@ -17,7 +17,7 @@ description: Redesign of the Spotify Desktop App. New, improved version of the m
 
 This project was part of a **mentorship program** at my workplace, where I was paired with an experienced UX designer to guide me through a design process. After some initial discussions, we decided to **redesign the Spotify Desktop App**. Over the next three months, I worked on this redesign, with my mentor providing advice and feedback throughout the journey.
 
-## Research
+## Research and Ideation
 
 The first step was to conduct user research to identify the most common pain points of the Spotify app. I **interviewed several individuals** and then synthesized the information into an **affinity diagram** to identify key patterns and insights.
 
@@ -34,16 +34,16 @@ The first step was to conduct user research to identify the most common pain poi
       <img src="https://i.imgur.com/78KFkEh.png" class="d-block mx-auto" height="700" alt="Users' issues with podcasts">
     </div>
     <div class="carousel-item">
-      <img src="https://i.imgur.com/BEvxQ6r.png" class="d-block mx-auto" height="700" alt="Users' issues with Home">
+      <img src="https://i.imgur.com/HnnW6a8.png" class="d-block mx-auto" height="700" alt="Users' issues with Home">
     </div>
     <div class="carousel-item">
-      <img src="https://i.imgur.com/zhmftg0.png" class="d-block mx-auto" height="700" alt="Users' issues with Search">
+      <img src="https://i.imgur.com/Ikr1wXe.png" class="d-block mx-auto" height="700" alt="Users' issues with Search">
     </div>
         <div class="carousel-item">
       <img src="https://i.imgur.com/Tuc1ZgR.png" class="d-block mx-auto" height="700" alt="Users' issues with Library">
     </div>
         <div class="carousel-item">
-      <img src="https://i.imgur.com/3EbrmUS.png" class="d-block mx-auto" height="700" alt="Users' other issues">
+      <img src="https://i.imgur.com/EeoUA2B.png" class="d-block mx-auto" height="700" alt="Users' other issues">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide="prev">
@@ -60,14 +60,9 @@ As illustrated above, users had numerous complaints across various areas of the 
 
 {% include cards.html source=site.data.projects.spotify.problems %}
 
-## Brainstorming
-
 Once I pinpointed the most pressing issues to address, I delved into ideation to devise potential solutions. This phase involved **collaborative brainstorming session** with guidance from my mentor.
 
-{% include animated_image.html src="https://i.imgur.com/oQUd7A8.jpg" alt="Brainstorming session" %}
-
-Some solutions were readily apparent or had been previously suggested by users, while others required deeper consideration. By the end of our session, we managed to craft solutions for the most critical user issues (grey sticky notes in the [affinity map](#research)).
-
+Some solutions were readily apparent or had been previously suggested by users, while others required deeper consideration. By the end of our session, we managed to craft solutions for the most critical user issues (grey sticky notes in the affinity map).
 
 ## Redesigning
 
