@@ -7,7 +7,13 @@ weight: 3
 
 {% include back_to_top_button.html %}
 
-# **About Me**
+<div class="row row-cols-2 justify-content-between align-items-center mb-3 mt-5">
+    <h1 class="col"><b> About Me </b></h1>
+    <div class="col w-auto">
+        {% include social.html %}
+    </div>
+</div>
+
 
 Hi, I'm **{{ site.author.name }}** :wave:,<br>
 I'm a Software Engineer by background, with a strong passion for frontend development and a long-standing interest in how visual experiences impact users. Over time, I've developed a deep understanding of UX Design and how thoughtful design choices enhance user interaction and satisfaction.

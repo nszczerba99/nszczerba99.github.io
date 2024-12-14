@@ -60,6 +60,8 @@ As illustrated above, users had numerous complaints across various areas of the 
 
 {% include cards.html source=site.data.projects.spotify.problems %}
 
+<br/>
+
 Once I pinpointed the most pressing issues to address, I delved into ideation to devise potential solutions. This phase involved **collaborative brainstorming session** with guidance from my mentor.
 
 Some solutions were readily apparent or had been previously suggested by users, while others required deeper consideration. By the end of our session, we managed to craft solutions for the most critical user issues (grey sticky notes in the affinity map).
