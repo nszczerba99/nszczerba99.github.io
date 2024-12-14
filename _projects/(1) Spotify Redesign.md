@@ -34,16 +34,16 @@ The first step was to conduct user research to identify the most common pain poi
       <img src="https://i.imgur.com/78KFkEh.png" class="d-block w-100" alt="Users' issues with podcasts">
     </div>
     <div class="carousel-item">
-      <img src="https://i.imgur.com/5WxukgE.png" class="d-block w-100" alt="Users' issues with Home">
+      <img src="https://i.imgur.com/TVPJiXc.png" class="d-block w-100" alt="Users' issues with Home">
     </div>
     <div class="carousel-item">
-      <img src="https://i.imgur.com/nnWSFjO.png" class="d-block w-100" alt="Users' issues with Search">
+      <img src="https://i.imgur.com/kSBMJf9.png" class="d-block w-100" alt="Users' issues with Search">
     </div>
         <div class="carousel-item">
-      <img src="https://i.imgur.com/X6xvxsk.png" class="d-block w-100" alt="Users' issues with Library">
+      <img src="https://i.imgur.com/71De7ih.png" class="d-block w-100" alt="Users' issues with Library">
     </div>
         <div class="carousel-item">
-      <img src="https://i.imgur.com/wTmWgYS.png" class="d-block w-100" alt="Users' other issues">
+      <img src="https://i.imgur.com/37wgnIV.png" class="d-block w-100" alt="Users' other issues">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide="prev">
