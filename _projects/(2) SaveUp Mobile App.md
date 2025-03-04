@@ -1,7 +1,7 @@
 ---
 name: SaveUp Mobile App
 tools: []
-image: /assets/img/group_savings_cover.png
+image: https://i.imgur.com/XcBBke0.png
 description: Mobile app that helps friend or family groups save up for a common goal.
 ---
 
@@ -209,15 +209,15 @@ This system ensures better structure and control over group savings while mainta
 
 ## Takeaways  
 
-### Designing for Group Savings  
+### Designing for group savings  
 This project deepened my understanding of the unique challenges in group saving - such as the need for **transparency, automation, and seamless collaboration**. I also learned that even when an app includes analytical and math-heavy features, it must remain **intuitive and jargon-free** to ensure usability for all.  
 
-### Visual & Interaction Design  
+### Visual & interaction Design  
 While crafting the UI, I strengthened my understanding of **visual design principles**, including typography, spacing, and color palette creation. This experience reinforced how **thoughtful design choices impact clarity, engagement, and overall user experience**.  
 
-### Enhancing My UX Research Process  
+### Enhancing my UX research process  
 This project sharpened my **research planning and note-taking** skills, allowing me to **better structure insights and translate them into actionable design decisions**. I also refined my approach to **organizing and prioritizing user feedback**, making the research process more efficient.  
 
-### Reducing Bias for Better Insights  
+### Reducing bias for better insights  
 To improve research accuracy, I explored different strategies to **mitigate bias**, such as using **open-ended questions and neutral framing** to encourage **genuine, unbiased responses**. This helped me uncover **more authentic user needs**, ultimately leading to a more user-centered design.  
 

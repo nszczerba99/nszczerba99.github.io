@@ -13,50 +13,32 @@ description: Redesign of the Spotify Desktop App. New, improved version of the m
 
 # Spotify Redesign
 
-## How it started
+This project was part of a **mentorship program** at my workplace, where I was paired with an **experienced UX designer** to guide me through a design process. After some initial discussions, we decided to **redesign the Spotify Desktop App**. Over the next three months, I worked on this redesign, with my mentor providing advice and feedback throughout the journey.
 
-This project was part of a **mentorship program** at my workplace, where I was paired with an experienced UX designer to guide me through a design process. After some initial discussions, we decided to **redesign the Spotify Desktop App**. Over the next three months, I worked on this redesign, with my mentor providing advice and feedback throughout the journey.
+## The challenge
 
-## Research and Ideation
-
-The first step was to conduct user research to identify the most common pain points of the Spotify app. I **interviewed several individuals** and then synthesized the information into an **affinity diagram** to identify key patterns and insights.
-
-<div id="researchCarouselIndicators" class="carousel slide carousel-dark bg-light mt-1 mb-4">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://i.imgur.com/78KFkEh.png" class="d-block w-100" alt="Users' issues with podcasts">
+<div class="row align-items-center">
+    <div class="col-sm-3 col-12">
+      {% include animated-image.liquid src="https://i.imgur.com/TSEpwpl.png" alt="A frustrated Spotify user struggling to navigate the app." %}
     </div>
-    <div class="carousel-item">
-      <img src="https://i.imgur.com/TVPJiXc.png" class="d-block w-100" alt="Users' issues with Home">
+    <div class="col-sm-9 col-12">
+        Spotify is one of the most popular <strong>music streaming platforms</strong>, but it’s not without its <strong>pain points</strong>. Many users struggle with aspects of its interface, navigation, and discoverability. This project aimed to <strong>identify and address</strong> these <strong>common frustrations</strong>, enhancing the overall user experience to <strong>make Spotify more intuitive, enjoyable, and seamless</strong>.
     </div>
-    <div class="carousel-item">
-      <img src="https://i.imgur.com/kSBMJf9.png" class="d-block w-100" alt="Users' issues with Search">
-    </div>
-        <div class="carousel-item">
-      <img src="https://i.imgur.com/71De7ih.png" class="d-block w-100" alt="Users' issues with Library">
-    </div>
-        <div class="carousel-item">
-      <img src="https://i.imgur.com/37wgnIV.png" class="d-block w-100" alt="Users' other issues">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#researchCarouselIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
 
-As illustrated above, users had numerous complaints across various areas of the app, with **podcasts** being a common source of frustration. Below are some **key highlights** of the most prevalent pain points.
+## My role
+
+In this project, I took on the roles of both **UX Researcher** and **UX Designer**. I conducted **user research** to identify key pain points and **designed solutions** to enhance the overall experience of the app. My **mentor** provided **guidance** and oversight, acting as the **project lead**.
+
+## Research and ideation
+
+The first step was to conduct user research to identify the **most common pain points** of the Spotify app. I **interviewed several individuals** and then synthesized the information into an **affinity diagram** to identify key patterns and insights.
+
+{% include projects/spotify/affinity-map-carousel.liquid %}
+
+As illustrated above, users had numerous complaints across various areas of the app, with **podcasts** being a common source of frustration. Below are the most important **insights** from my research.
+
+### Key insights
 
 {% include cards.liquid source=site.data.projects.spotify.problems %}
 
@@ -66,10 +48,9 @@ Once I pinpointed the most pressing issues to address, I delved into ideation to
 
 Some solutions were readily apparent or had been previously suggested by users, while others required deeper consideration. By the end of our session, we managed to craft solutions for the most critical user issues (grey sticky notes in the affinity map).
 
+## Redesign
 
-## Redesigning
-
-During this phase, I utilized the *Figma* tool for high-fidelity prototyping. Below are a few of the changes I successfully designed.
+During this phase, I used *Figma* to create **mockups** and **high-fidelity prototypes**. Below are a few of the changes I successfully designed.
 
 ### New logic inside a podcast
 
@@ -82,11 +63,23 @@ To address this, I added **a new tile** next to the *Latest episode* called *Con
     <p class="lead text-center">Before</p>
     <img src="https://i.imgur.com/jPhPT2C.png" alt="Podcast page before">
 </div>
-<div class="wow animate__animated animate__fadeInRight mt-3 mb-4" data-wow-delay=".4s">
+<div class="wow animate__animated animate__fadeInRight mt-3 mb-5" data-wow-delay=".4s">
     <p class="lead text-center">After</p>
     <img src="https://i.imgur.com/OcJhlfd.png" alt="Podcast page's new layout">
 </div>
 
+To ensure the **responsiveness** of the app, here’s how this design **adapts** to **smaller screens**:
+
+<div class="row row-cols-1 row-cols-md-2 my-4">
+  <div class="col wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
+    <p class="lead text-center">Before</p>
+    <img src="https://i.imgur.com/VzOOVeK.png" alt="Podcast page on smaller screens before">
+  </div>
+  <div class="col wow animate__animated animate__fadeInRight" data-wow-delay=".4s">
+      <p class="lead text-center">After</p>
+      <img src="https://i.imgur.com/M7hyLub.png" alt="Podcast page's new layout on smaller screens">
+  </div>
+</div>
 
 ### Podcasts in folders
 
@@ -106,7 +99,6 @@ I also introduced a way for users to **group their podcasts**, not just individu
 To address the common complaint about the lack of separation between music and podcasts, I ensured that podcast entities were easily **distinguishable** from playlists and other content.\
 I proposed **three designs** for how podcasts/podcast episodes should be presented on the Home page.
 
-<!-- ![Podcast new look](https://i.imgur.com/lX0UfBM.png) -->
 {% include animated-image.liquid src="https://i.imgur.com/lX0UfBM.png" alt="Podcast new look" %}
 
 ### New Home sections
@@ -128,6 +120,19 @@ Similarly, I designed a new "Choose what to see" panel, positioned at the bottom
 
 {% include animated-image.liquid src="https://i.imgur.com/WDhm5GR.png" alt="Choose what to see on Home panel" %}
 
+### Excluding from recommendations
+
+The **"Exclude from your taste profile"** option is currently available **only for playlists**. To address the issue of **poor recommendations**, I decided to expand this feature to include **artists and podcasts** as well.
+
+#### Podcasts
+
+{% include animated-image.liquid src="https://i.imgur.com/HdWfaq3.png" alt="'Exclude from your taste profile' option for podcasts" %}
+
+#### Artists
+
+{% include animated-image.liquid src="https://i.imgur.com/BRxck0S.png" alt="'Exclude from your taste profile' option for artists" %}
+
+<br/>
 
 ### *Liked Songs* filters
 
@@ -146,6 +151,18 @@ I proposed **two solutions** for how this filtering could look like.
 
 <div style="padding:64.64% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/948504070?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Spotify Liked Songs Redesign v2"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
+### Accessibility considerations
+
+One of the **accessibility concerns** raised during the research was the absence of a **transcript option** for **podcasts**. Users with **speech impairments** or those less fluent in a language would greatly benefit from a **written version** of the podcast. Below are designs showing how this could be implemented, following the same format as the **song lyrics feature** for **consistency** across the app.
+
+#### Podcast transcript feature
+
+{% include animated-image.liquid src="https://i.imgur.com/HsCjkOI.png" alt="Podcast transcript option on the play bar" %}
+
+{% include animated-image.liquid src="https://i.imgur.com/dKv6L7J.png" alt="Podcast transcript" %}
+
+<br/>
+
 ## Testing
 
 To evaluate my designs, I combined concept testing with A/B testing. I sent an online survey to users, requesting their feedback on my proposed solutions. The survey also included two polls: one for users to vote on their preferred *Liked Songs* prototype (version 1 or 2) and another to choose their favorite podcast design. The survey results are detailed below.
@@ -159,3 +176,22 @@ As shown above, the winners turned out to be:
 - Version 2 of the new podcast look.
 
 Additionally, there were several comments on other design aspects. The "Choose what to see" panel on the Home screen received a lot of praise. However, it was suggested that the separation of podcasts and music still needed improvement, with recommendations to create separate Home and Search for these two categories.
+
+## Takeaways
+
+### Understanding user diversity
+
+One of the key takeaways from this project was the realization of how **diverse** the **user base** can be, with different needs and preferences. For example, some users only used Spotify for **podcasts**, while others used it exclusively for **music**. This highlighted the importance of understanding various **user types** and their specific needs before jumping into the design process.
+
+### Overcoming personal bias
+
+Another valuable lesson was learning to combat my own **bias** as a Spotify user. While I have my own frustrations and pain points with the app, I had to remind myself that my **personal opinions** could not be the sole basis for the redesign. It was essential to focus on a wide range of **user experiences**, ensuring I didn’t prioritize my own needs above others’. This reinforced the importance of **user-centered design**, where insights from diverse users guide the solution.
+
+### Motivation and enjoyment
+
+On a positive note, being a **Spotify user** myself also provided **motivation** throughout the redesign process. My personal experience with the app made the project more **engaging**, and I found **joy** in tackling design challenges. This showed me that **UX design** can be both fun and rewarding when you’re deeply involved in solving real user problems.
+
+### A valuable learning experience
+
+Ultimately, this project was a fantastic **learning opportunity**. It taught me a lot about the **design process** and allowed me to explore **Figma’s features** in depth. I also received valuable **guidance** from my **mentor** throughout the project, which helped me deepen my understanding of UX design and refine my approach to **user-centered solutions**.
+
