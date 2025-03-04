@@ -1,0 +1,58 @@
+<table class="table table-responsive table-bordered mb-5">
+  <thead>
+    <tr>
+        <td colspan="{{ include.source.journey | size | plus: 1 }}">
+            <div class="d-flex align-items-center p-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                </svg>
+                <div class="ms-3">
+                    <p class="h5">
+                        <strong>Persona: {{ include.source.persona }}</strong>
+                    </p>
+                    <div><strong>Goal:</strong> {{ include.source.goal }}</div>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr class="align-middle">
+        <th class="table-blue small" scope="row">ACTION</th>
+        {% for item in include.source.journey %}
+            <th class="table-purple small" scope="col">{{ item.action }}</th>
+        {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <th scope="row" class="table-blue small">TASK LIST</th>
+        {% for item in include.source.journey %}
+            <td scope="col">
+                <ol type="A">
+                {% for task in item.tasks %}
+                    <li class="x-small">{{ task }}</li>
+                {% endfor %}
+                </ol>
+            </td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <th scope="row" class="table-blue small">FEELING ADJECTIVE</th>
+        {% for item in include.source.journey %}
+            <td scope="col" class="x-small">{{ item.feelings }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <th scope="row" class="table-blue small">IMPROVEMENT OPPORTUNITIES</th>
+        {% for item in include.source.journey %}
+            <td scope="col">
+                <ul>
+                {% for imp in item.improvements %}
+                    <li class="x-small">{{ imp }}</li>
+                {% endfor %}
+                </ul>
+            </td>
+        {% endfor %}
+    </tr>
+  </tbody>
+</table>

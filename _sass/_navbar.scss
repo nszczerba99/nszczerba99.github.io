@@ -1,59 +1,57 @@
-.link-after {
-    content: "";
-    display: block;
-    height: 0.15em;
-    background: $primary;
-}
-
-.nav-link,
-.brand-name {
-    &::after {
-        @extend .link-after;
-        width: 0;
-        transition: width 0.35s;
+.navbar {
+    .link-after {
+        content: "";
+        display: block;
+        height: 0.15em;
+        background: $primary;
     }
-
-    &:hover::after {
-        width: 100%;
-    }
-}
-
-.nav-link.active {
-    font-weight: bold !important;
-
-    &::after {
-        @extend .link-after;
-        width: 100% !important;
-    }
-}
-
-@include media-breakpoint-down(md) {
-    .nav-item {
-        margin-right: auto;
-    }
-}
-
-
-.brand-name {
-    // margin-bottom: -14px;
-    // &::after {
-    //     margin-top: -0.25em;
-    // }
-    @include media-breakpoint-down(sm) {
-        display: none;
-    }
-}
-
-.nav-item.dropdown {
-    @include media-breakpoint-up(md) {
-        &:hover .dropdown-menu {
-            display: block;
-            margin-top: 0; /* remove the gap so it doesn't close */
+    
+    .nav-link,
+    .brand-name {
+        &::after {
+            @extend .link-after;
+            width: 0;
+            transition: width 0.35s;
+        }
+    
+        &:hover::after {
+            width: 100%;
         }
     }
-
-    .dropdown-toggle::after {
-        margin-left: 0;
-        border: 0;
+    
+    .nav-link.active {
+        font-weight: bold !important;
+    
+        &::after {
+            @extend .link-after;
+            width: 100% !important;
+        }
+    }
+    
+    @include media-breakpoint-down(md) {
+        .nav-item {
+            margin-right: auto;
+        }
+    }
+    
+    
+    .brand-name {
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
+    }
+    
+    .nav-item.dropdown {
+        @include media-breakpoint-up(md) {
+            &:hover .dropdown-menu {
+                display: block;
+                margin-top: 0; /* remove the gap so it doesn't close */
+            }
+        }
+    
+        .dropdown-toggle::after {
+            margin-left: 0;
+            border: 0;
+        }
     }
 }

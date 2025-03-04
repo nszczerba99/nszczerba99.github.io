@@ -1,0 +1,35 @@
+- problem: '"All goals" and "single goal" spaces are too similar.'
+  solution: 'Users need clear visual distinctions between "all goals" and "single goal" spaces.'
+  image:
+    src: https://i.imgur.com/mSEqX6v.png
+    alt: Insight illustration
+
+- problem: The plus button being the same in both <em>Transactions</em> and <em>Goals</em> tabs confuses users.
+  solution: 'Users need a clear visual distinction between plus buttons in <em>Transactions</em> and <em>Goals</em>.'
+  image:
+    src: https://i.imgur.com/MqAqR8c.png
+    alt: Insight illustration
+
+- problem: The <em>Goal Visibility Mode</em> is often misunderstood.
+  solution: Users need the <em>Goal Visibility Mode</em> to be phrased and described differently, clearly stating it applies to goal savings.
+  image:
+    src: https://i.imgur.com/eg9rKEm.png
+    alt: Insight illustration
+
+- problem: 'The "Goal Prioritization" button is not intuitive at all.'
+  solution: 'Users need a different design of the "Goal Prioritization" button that clearly conveys its purpose, possibly using text.'
+  image:
+    src: https://i.imgur.com/1dsCfvI.png
+    alt: Insight illustration
+
+- problem: The placement of the <em>Balances</em> section within the <em>Overview</em> tab is not intuitive.
+  solution: Users need the <em>Balances</em> section to be in the <em>Transactions</em> tab instead of <em>Overview</em>.
+  image:
+    src: https://i.imgur.com/CwYdIYe.png
+    alt: Insight illustration
+
+- problem: Permission settings are too lenient.
+  solution: Users need more cautious permission management inside a goal.
+  image:
+    src: https://i.imgur.com/YKBLg1H.png
+    alt: Insight illustration

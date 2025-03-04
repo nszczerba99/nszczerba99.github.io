@@ -1,0 +1,25 @@
+<div class="row row-cols-1 row-cols-md-2">
+    {% assign categories = "says,thinks,does,feels" | split: "," %}
+    {% for cat in categories %}
+        <div class="col mb-4">
+            <div class="card h-100">
+                <div class="card-header text-center text-bg-primary">{{ cat | upcase }}</div>
+                <div class="card-body">
+                <p class="card-text">
+                    {% for item in include.source[cat] %}
+                    <ul>
+                        <li>
+                            {% if cat == "says" %}
+                                <em>"{{ item }}"</em>
+                            {% else %}
+                                {{ item }}
+                            {% endif %}
+                        </li>
+                    </ul>
+                    {% endfor %}
+                </p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

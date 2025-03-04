@@ -1,0 +1,60 @@
+persona: Sofia
+goal: Manage monthly shared household savings and save up for a new washing machine
+journey:
+  - action: Identify issues with current process
+    tasks:
+      - Review monthly expenses and savings to calculate who owes what and determine what the family can afford.
+      - Discuss and decide with the family on the next item to purchase using savings.
+    feelings: >
+      I'm exhausted from managing finances. The constant calculations and family arguments about priorities are overwhelming.
+      Everyone feels frustrated and upset.
+    improvements: 
+      - An app to automatically calculate finances, track balances, and display available savings.
+      - A goal prioritization feature.
+
+  - action: Look for apps to manage group expenses and savings
+    tasks:
+      - Browse the app store for a suitable app.
+      - Download, install, and start the chosen app.
+      - Create an account and encourage family members to do the same.
+    feelings: >
+      I’m uncertain about the app and hope it simplifies things instead of complicating them.
+      Still, I’m glad we’re trying something new since the old system clearly wasn’t working.
+    improvements:
+      - Integration with Google or similar credentials for quick login.
+
+  - action: Input all information into the app
+    tasks:
+      - Set up a goal with subgoals for all items the family wants to buy.
+      - Invite family members to join via a shared link.
+      - Decide together how to prioritize all the goals, with the washing machine as the highest priority.
+      - Set up recurring contributions, like paychecks, and assist family members in doing the same.
+    feelings: >
+      The app is intuitive and user-friendly. I'm hopeful this system will work better than our old methods.
+    improvements:
+      - "Flexible goal/subgoal prioritization options: saving for all goals at once, one at a time, or dividing contributions by percentages."
+      - Allow members to opt-out of specific goals.
+      - An option to set aside a specific percentage of savings to remain unallocated for general savings.
+
+  - action: Track family's savings/expenses
+    tasks:
+      - Family logs their savings and expenses in the app regularly.
+      - Monitor progress and wait for notification about reaching the washing machine goal.
+    feelings: >
+      The app has made managing shared expenses much easier! I'm relieved and grateful for the streamlined process.
+    improvements:
+      - Separate global personal expenses from goal-specific shared expenses.
+      - Show exact amounts owed and include a button to settle balances.
+      - Option for shared visibility of everyone's savings, suitable for families.
+
+  - action: Save up for a washing machine and move to the next goal
+    tasks:
+      - Receive a notification when the washing machine goal is reached.
+      - View payment breakdowns for the washing machine based on owed amounts.
+      - Purchase the washing machine.
+      - Start saving for the next goal in the queue.
+    feelings: >
+      I'm thrilled it all worked out! The whole family is on board with this system,
+      and there’s no more arguing about priorities.
+    improvements:
+      - Option to pause and resume saving for a goal.

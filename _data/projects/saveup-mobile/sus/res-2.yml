@@ -1,0 +1,19 @@
+- name: Strongly disagree
+  percentage: 0
+  color: 961a46
+
+- name: Disagree
+  percentage: 20
+  color: 961a46
+
+- name: Neither agree or disagree
+  percentage: 40
+  color: 961a46
+
+- name: Agree
+  percentage: 20
+  color: 961a46
+
+- name: Strongly agree
+  percentage: 20
+  color: 961a46

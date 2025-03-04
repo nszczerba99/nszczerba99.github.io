@@ -5,11 +5,11 @@ image: https://i.imgur.com/KVVMtgb.png
 description: Redesign of the Spotify Desktop App. New, improved version of the most popular music streaming platform.
 ---
 
-{% include projects/project_navigation.html %}
+{% include projects/project-navigation.liquid %}
 
 ![Spotify Redesign project thumbnail](https://i.imgur.com/81QiOBv.png)
 
-{% include tags.html source=site.data.projects.spotify.tags %}
+{% include tags.liquid source=site.data.projects.spotify.tags %}
 
 # Spotify Redesign
 
@@ -58,7 +58,7 @@ The first step was to conduct user research to identify the most common pain poi
 
 As illustrated above, users had numerous complaints across various areas of the app, with **podcasts** being a common source of frustration. Below are some **key highlights** of the most prevalent pain points.
 
-{% include cards.html source=site.data.projects.spotify.problems %}
+{% include cards.liquid source=site.data.projects.spotify.problems %}
 
 <br/>
 
@@ -94,10 +94,10 @@ I also introduced a way for users to **group their podcasts**, not just individu
 
  <div class="row mt-4">
     <div class="col-sm-12 col-md-6">
-        {% include animated_image.html src="https://i.imgur.com/TSYI9Qr.png" alt="Folder with podcasts in a library" %}
+        {% include animated-image.liquid src="https://i.imgur.com/TSYI9Qr.png" alt="Folder with podcasts in a library" %}
     </div>
     <div class="col-sm-12 col-md-6">
-        {% include animated_image.html src="https://i.imgur.com/A164nVp.png" alt="View inside a folder with podcasts" %}
+        {% include animated-image.liquid src="https://i.imgur.com/A164nVp.png" alt="View inside a folder with podcasts" %}
     </div>
 </div>
 
@@ -107,7 +107,7 @@ To address the common complaint about the lack of separation between music and p
 I proposed **three designs** for how podcasts/podcast episodes should be presented on the Home page.
 
 <!-- ![Podcast new look](https://i.imgur.com/lX0UfBM.png) -->
-{% include animated_image.html src="https://i.imgur.com/lX0UfBM.png" alt="Podcast new look" %}
+{% include animated-image.liquid src="https://i.imgur.com/lX0UfBM.png" alt="Podcast new look" %}
 
 ### New Home sections
 
@@ -117,16 +117,16 @@ In the designs presented below, you'll notice that I also added some **customiza
 - **drag icons** next to each section allowing users to reorder them
 - **close buttons** letting users hide certain sections from the Home screen.
 
-{% include animated_image.html src="https://i.imgur.com/JMXRQJN.png" alt="Suggested podcasts section" %}
+{% include animated-image.liquid src="https://i.imgur.com/JMXRQJN.png" alt="Suggested podcasts section" %}
 
-{% include animated_image.html src="https://i.imgur.com/oSOIMdT.png" alt="More like X podcast section" %}
+{% include animated-image.liquid src="https://i.imgur.com/oSOIMdT.png" alt="More like X podcast section" %}
 
 
 ### *Choose what to see on Home* panel
 
 Similarly, I designed a new "Choose what to see" panel, positioned at the bottom of the Home page. This feature would empower users to select which sections exactly they want to see on the Home page.
 
-{% include animated_image.html src="https://i.imgur.com/WDhm5GR.png" alt="Choose what to see on Home panel" %}
+{% include animated-image.liquid src="https://i.imgur.com/WDhm5GR.png" alt="Choose what to see on Home panel" %}
 
 
 ### *Liked Songs* filters
@@ -150,9 +150,9 @@ I proposed **two solutions** for how this filtering could look like.
 
 To evaluate my designs, I combined concept testing with A/B testing. I sent an online survey to users, requesting their feedback on my proposed solutions. The survey also included two polls: one for users to vote on their preferred *Liked Songs* prototype (version 1 or 2) and another to choose their favorite podcast design. The survey results are detailed below.
 
-{% include poll_results.html images=false title="Liked Songs filters" source=site.data.projects.spotify.liked-songs-res %}
+{% include projects/poll-results.liquid images=false title="Liked Songs filters" source=site.data.projects.spotify.liked-songs-res %}
 
-{% include poll_results.html images=true title="Podcast new look" source=site.data.projects.spotify.podcast-icons-res %}
+{% include projects/poll-results.liquid images=true title="Podcast new look" source=site.data.projects.spotify.podcast-icons-res %}
 
 As shown above, the winners turned out to be:
 - Version 2 of *Liked Songs* filters

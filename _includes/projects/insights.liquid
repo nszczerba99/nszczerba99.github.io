@@ -1,0 +1,17 @@
+<div class="row">
+{% assign delay = 0 %}
+    {% for insight in include.source %}
+        {% assign delay = delay | plus: 200 %}
+        <div class="col-12 col-md-6 col-lg-4 mb-4 wow animate__animated animate__pulse" data-wow-delay="{{ delay }}ms">
+            <div class="card h-100">
+                {% if insight.image %}
+                    <img src="/assets/img/{{ insight.image.src }}" alt="{{ insight.image.alt }}" height="250">
+                {% endif %}
+                <div class="card-body">
+                    <p class="card-text">{{ insight.problem }}</p>
+                    <p class="card-text text-body-secondary small">{{ insight.solution }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

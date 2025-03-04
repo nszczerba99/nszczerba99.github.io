@@ -2,13 +2,13 @@
   value: "App Redesign"
 
 - name: "Role"
-  value: "UX/UI Designer"
-
-- name: "Designer"
-  value: "Natalia Szczerba"
+  value: "UX Design, UX Research"
 
 - name: "Duration"
   value: "3 months"
+
+- name: "Year"
+  value: "2023"
 
 - name: "Tools"
   value: "Figma"

@@ -59,10 +59,34 @@
   @include themed(border-color, $light-value, $dark-value);
 }
 
+// monochromatic
 .bg-themed-contrast {
   @include themed-bg(white, $dark);
 }
 
 .border-themed {
   @include themed-border($border-light, $border-dark);
+}
+
+// blue
+.text-themed-blue {
+  @include themed-text($primary, $light-blue);
+}
+
+.border-themed-blue {
+  @include themed-border($primary, $light-blue);
+}
+
+// purple
+.text-themed-purple {
+  @include themed-text($indigo-500, $indigo-200);
+}
+
+.border-themed-purple {
+  @include themed-border($indigo-500, $indigo-200);
+}
+
+// green
+.text-themed-green {
+  @include themed-text($teal-600, $teal-200);
 }

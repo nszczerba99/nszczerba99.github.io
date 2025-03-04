@@ -1,0 +1,17 @@
+<div class="row">
+    {% assign delay = 0 %}
+    {% assign roles = "UX Researcher, UX Designer, UI Designer, Interaction Designer" | split: ", " %}
+    {% for role in roles %}
+        {% assign delay = delay | plus: 300 %}
+        <div class="col-lg-3 col-6 mb-3 wow animate__animated animate__pulse" data-wow-delay="{{ delay }}ms">
+            <div class="card h-100">
+                <div class="card-body d-flex justify-content-center align-items-center">
+                <p class="card-title h5 mb-0 text-center">{{ role }}</p>
+                </div>
+            </div>
+            {% comment %} <div class="alert alert-primary" role="alert">
+                {{role}}
+            </div> {% endcomment %}
+        </div>
+    {% endfor %}
+</div>

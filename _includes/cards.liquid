@@ -1,5 +1,5 @@
 <div class="col-lg">
-    <div class="row d-flex align-items-stretch">
+    <div class="row">
         {% assign delay = 0 %}
         {% for card in include.source %}
             {% assign delay = delay | plus: 100 %}
@@ -12,12 +12,6 @@
                       <p class="card-text">{{card.desc}}</p>
                     </div>
                 </div>
-                <!-- <div class="me-3 bg-themed p-3 rounded h-100">
-                    {% if card.title %}
-                        <div class="card-title">{{card.title}}</div>
-                    {% endif %}
-                    <p>{{card.desc}}</p>
-                </div> -->
             </div>
         {% endfor %}
     </div>

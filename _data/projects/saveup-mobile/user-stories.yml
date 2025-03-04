@@ -1,0 +1,16 @@
+- desc: >
+    As a <strong class="text-themed-blue">frequent traveler in a group</strong>,
+    I want to <strong class="text-themed-purple">see the group’s savings status at any time</strong>,
+    so I can <strong class="text-themed-green">avoid awkward conversations about money</strong>.
+- desc: >
+    As a <strong class="text-themed-blue">frequent traveler in a group</strong>,
+    I want a <strong class="text-themed-purple">dedicated space for sharing savings and expenses</strong>
+    to <strong class="text-themed-green">avoid misunderstandings and lost information</strong>.
+- desc: >
+    As the <strong class="text-themed-blue">head of a family who shares expenses</strong>,
+    I want to <strong class="text-themed-purple">allocate savings to different goals with clear priorities</strong>,
+    so it’s <strong class="text-themed-green">easy to decide what to buy next and avoid arguments</strong>.
+- desc: >
+    As the <strong class="text-themed-blue">head of a family who shares expenses</strong>,
+    I want a <strong class="text-themed-purple">tool to automatically track expenses and savings with future projections</strong>,
+    so I <strong class="text-themed-green">don’t have to calculate everything manually or worry about accuracy</strong>.

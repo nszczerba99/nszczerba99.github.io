@@ -1,0 +1,67 @@
+persona: Alex
+goal: Save money for a trip with friends and make it happen.
+journey:
+  - action: Decide on a trip with friends
+    tasks:
+      - Brainstorm destination ideas in a group chat.
+      - Agree on a location that everyone likes.
+      - Decide on a tentative date that works for everyone.
+    feelings: >
+      I feel excited about the upcoming trip and curious about what we’ll experience.
+      I’m also feeling imaginative, coming up with activities and places we could explore.
+    improvements:
+      - "An app where you can define a main goal and subgoals as you brainstorm ideas (e.g. main goal: Africa, subgoals: safari, sand skiing, etc.)."
+
+  - action: Plan the trip and estimate costs
+    tasks:
+      - Research the costs of accommodations, flights, and other essential expenses.
+      - Calculate the total cost per person.
+      - Compare the estimated costs with current savings to check affordability.
+      - Share the calculations with friends through group chats.
+      - Confirm if everyone can afford the trip or needs time to save up.
+      - Explore options to save collectively as a group.
+    feelings: >
+      The required expenses are higher than expected, and neither my friends nor I can afford the trip right now.
+      I’m starting to feel doubtful about whether the trip will work out, which is disappointing since I’m so excited about it.
+    improvements:
+      - An app where the total trip cost is clearly visible to all participants to avoid miscommunication.
+      - Motivational messages when starting a savings goal to encourage progress.
+
+  - action: Search for apps to track group savings
+    tasks:
+      - Open the app store and search for a suitable app.
+      - Download, install, and run the chosen app.
+      - Create an account and encourage friends to do the same.
+    feelings: >
+      I feel a bit unsure about whether I’ve chosen the right app. I want something simple that won’t overcomplicate things for my friends.
+      I also value privacy—I don’t want to share my exact salary, expenses, or savings with others.
+    improvements:
+      - A user-friendly app with a simple and intuitive interface.
+      - Options to keep personal financial details private while only showing the group the collective savings.
+
+  - action: Use the app to track group savings
+    tasks:
+      - Create a goal for the trip, including subgoals and their costs, along with a deadline.
+      - Invite friends to join via a shared link.
+      - Help them in linking savings accounts or setting up recurring contributions.
+      - Monitor the savings progress while waiting for the total amount to be gathered.
+    feelings: >
+      The app is easy to use, and most of my friends appreciate it. We’re all relieved to avoid awkward conversations about money.
+      However, a few friends are skeptical and worried about sharing personal financial details, even though the app feels secure.
+    improvements:
+      - Predict the completion date based on current savings rates.
+      - Option to link savings accounts or set recurring savings/expenses.
+      - Send notifications if the group is falling behind the deadline and suggest timeline adjustments.
+      - Highlight privacy features, ensuring users know their detailed finances are hidden.
+
+  - action: Save up the required amount and go on the trip
+    tasks:
+      - Receive a notification when the savings goal is fully met.
+      - Finalize trip preparations.
+      - Embark on the trip!
+    feelings: >
+      I’m thrilled we achieved our goal! Everyone eventually appreciated the app, and I’m incredibly excited about the trip.
+    improvements:
+      - Allow for adjustments to expenses if circumstances change (e.g. hotel prices increase).
+      - Provide milestone notifications at 25%, 50%, 75%, and 100% of the goal.
+      - Mark goals as completed and stop notifications once achieved.

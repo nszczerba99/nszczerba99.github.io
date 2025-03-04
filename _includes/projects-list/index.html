@@ -25,7 +25,7 @@
           {%- assign project_tools = project.topics -%}
           {%- assign external      = true -%}
   
-          {% include projects/project-card.html %}
+          {% include projects-list/project-card.html %}
   
         {%- endif -%}
   
@@ -51,7 +51,7 @@
         {%- assign external    = false -%}
       {%- endif -%}
   
-      {% include projects/project-card.html %}
+      {% include projects-list/project-card.html %}
   
     {% endfor %}
   
