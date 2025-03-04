@@ -145,11 +145,11 @@ I proposed **two solutions** for how this filtering could look like.
 <div style="padding:64.64% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/948506383?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Spotify Liked Songs Redesign v1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <br/>
-<br/>
 
 #### Version 2
 
 <div style="padding:64.64% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/948504070?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Spotify Liked Songs Redesign v2"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<br/>
 
 ### Accessibility considerations
 
@@ -160,8 +160,6 @@ One of the **accessibility concerns** raised during the research was the absence
 {% include animated-image.liquid src="https://i.imgur.com/HsCjkOI.png" alt="Podcast transcript option on the play bar" %}
 
 {% include animated-image.liquid src="https://i.imgur.com/dKv6L7J.png" alt="Podcast transcript" %}
-
-<br/>
 
 ## Testing
 
