@@ -70,7 +70,7 @@ To address this, I added **a new tile** next to the *Latest episode* called *Con
 
 To ensure the **responsiveness** of the app, here’s how this design **adapts** to **smaller screens**:
 
-<div class="row row-cols-1 row-cols-md-2 my-4">
+<div class="row row-cols-1 row-cols-md-2 mt-4 mb-3">
   <div class="col wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
     <p class="lead text-center">Before</p>
     <img src="https://i.imgur.com/VzOOVeK.png" alt="Podcast page on smaller screens before">
