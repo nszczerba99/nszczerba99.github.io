@@ -20,7 +20,7 @@ I designed the *SaveUp* mobile app as part of my **coursework** for the ***Googl
 As part of the course, I was given a list of design challenges to choose from. I selected the following:
 
 <blockquote class="blockquote">
-    <p><em>Design an app and a responsive website that help friend or family groups manage a household budget and save up for a common goal (such as a vacation).</em></p>
+    <p><em>Design an app that helps friend or family groups manage a household budget and save up for a common goal (such as a vacation).</em></p>
 </blockquote>
 
 Saving money can be challenging on its own, but saving as a group adds even more complexity. Conversations about money can be uncomfortable, and coordinating multiple people requires organization and transparency. My goal was to design an app that simplifies group savings, making it easier for friends and family to set goals, track contributions, and stay motivated together.
