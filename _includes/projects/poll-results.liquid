@@ -1,9 +1,9 @@
 <div class="bg-themed-contrast border-themed rounded p-3 my-4 wow animate__animated animate__zoomIn" data-wow-delay="0.3s">
     <div class="text-center" style="font-size: 1.3rem;">{{ include.title }}</div>
-    <div class="mt-5 d-flex justify-content-center">
+    <div class="mt-5 row justify-content-center">
         {% for result in include.source %}
-            <div class="me-4" style="max-width: 120px;">
-                <div class="d-flex flex-column" style="height: 150px; min-width: 100px">
+            <div class="col col-lg-2">
+                <div class="d-flex flex-column" style="height: 150px;">
                     {% if result.percentage == 0 %}
                         <div
                             class="text-center border border-dark rounded mt-auto"
