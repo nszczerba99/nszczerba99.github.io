@@ -1,0 +1,17 @@
+- problem: Can’t add a goal or transaction from the homepage
+  description: Users found it frustrating that they couldn’t add a new goal or transaction directly from the homepage. They expected a quick-access option for these actions without navigating to another page.
+  image:
+    src: https://i.imgur.com/mH521jT.png
+    alt: Wireframe showing the lack of an option to add a goal or transaction from the homepage
+
+- problem: No filters for transaction history
+  description: Users expressed the need for filtering options in their transaction history. Without filters, it was difficult to sort or find specific transactions efficiently.
+  image:
+    src: https://i.imgur.com/lCB8Asv.png
+    alt: Wireframe showing the lack of filters on the transaction history page
+
+- problem: No option to upload photos
+  description: When selecting a graphic for goals or transactions, users were limited to the preset icons and couldn’t upload their own images. Many wanted the ability to personalize their savings experience with custom visuals.
+  image:
+    src: https://i.imgur.com/yGyR74f.png
+    alt: Wireframe illustrating the absence of an option to upload a custom photo for a goal or transaction graphic

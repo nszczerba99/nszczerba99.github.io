@@ -1,0 +1,20 @@
+<div class="row row-cols-md-4 row-cols-sm-2 row-cols-1 gy-4">
+{% assign delay = 0 %}
+{% assign keys = "study type, location, participants, length" | split: ", " %}
+{% assign icons = "bi-card-checklist, bi-geo-alt-fill, bi-people-fill, bi-hourglass-split" | split: ", " %}
+    {% for i in (0..3) %}
+        {% assign delay = delay | plus: 200 %}
+        <div class="col wow animate__animated animate__pulse" data-wow-delay="{{ delay }}ms">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="d-flex">
+                        <i class="bi {{ icons[i] }} me-2 text-themed-blue"></i>
+                        <div class="h5 card-title"> {{ keys[i] | capitalize }}</div>
+                    </div>
+                    {% assign key = keys[i] %}
+                    <p class="card-text">{{ include.source[key] }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
