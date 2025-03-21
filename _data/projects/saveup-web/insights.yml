@@ -7,7 +7,7 @@
 - problem: No filters for transaction history
   description: Users expressed the need for filtering options in their transaction history. Without filters, it was difficult to sort or find specific transactions efficiently.
   image:
-    src: https://i.imgur.com/lCB8Asv.png
+    src: https://i.imgur.com/RvXMlub.png
     alt: Wireframe showing the lack of filters on the transaction history page
 
 - problem: No option to upload photos
