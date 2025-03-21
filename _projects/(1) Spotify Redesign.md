@@ -1,7 +1,7 @@
 ---
 name: Spotify Redesign
 tools: []
-image: https://i.imgur.com/KVVMtgb.png
+image: https://i.imgur.com/81QiOBv.png
 description: Redesign of the Spotify Desktop App. New, improved version of the most popular music streaming platform.
 ---
 
