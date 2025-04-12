@@ -16,11 +16,12 @@ weight: 3
 
 
 Hi, I'm **{{ site.author.name }}** :wave:,<br>
-I'm a Software Engineer by background, with a strong passion for frontend development and a long-standing interest in how visual experiences impact users. Over time, I've developed a deep understanding of UX Design and how thoughtful design choices enhance user interaction and satisfaction.
 
-I believe my engineering background gives me a unique perspective on UX, enabling me to bridge the gap between design and development teams. I bring a collaborative approach that ensures user-centered solutions are both visually appealing and technically feasible.
+I'm a **Software Engineer** by background, with a strong passion for **frontend development** and a long-standing interest in how **visual experiences** impact users. Over time, I've developed a deep understanding of **UX Design** and how thoughtful design choices enhance user interaction and satisfaction.
 
-<div class="row">
+I believe my engineering background gives me a **unique perspective on UX**, enabling me to bridge the gap between design and development teams. I bring a collaborative approach that ensures user-centered solutions are both **visually appealing** and **technically feasible**.
+
+<div class="row mt-5 mb-3">
 {% include about/skills.html title="Design skills" source=site.data.about.ux-skills %}
 {% include about/skills.html title="Programming skills" source=site.data.about.programming-skills %}
 </div>
