@@ -90,3 +90,13 @@
 .text-themed-green {
   @include themed-text($teal-600, $teal-200);
 }
+
+// pink
+.text-themed-pink {
+  @include themed-text($pink-600, $pink-200);
+}
+
+// yellow
+.text-themed-yellow {
+  @include themed-text($yellow-600, $yellow-200);
+}

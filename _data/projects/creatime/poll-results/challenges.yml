@@ -1,0 +1,23 @@
+- name: Lack of time
+  percentage: 77.8
+  color: acdb1b
+
+- name: Lack of motivation
+  percentage: 77.8
+  color: acdb1b
+
+- name: I don't know where to start
+  percentage: 66.7
+  color: acdb1b
+
+- name: Fear of failure or judgment
+  percentage: 55.6
+  color: acdb1b
+
+- name: Lack of skills
+  percentage: 11.1
+  color: acdb1b
+  
+- name: I don't have access to necessary resources
+  percentage: 0
+  color: acdb1b

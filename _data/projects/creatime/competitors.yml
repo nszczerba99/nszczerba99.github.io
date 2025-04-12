@@ -1,0 +1,33 @@
+- name: Skillshare
+  image: https://static.skillshare.com/assets/images/opengraph-default.png
+  link: https://www.skillshare.com
+  offering: An online learning platform offering thousands of classes in illustration, design, photography, video, freelancing, and more.
+  unique_value:
+    - Anyone can teach, verified by ratings, reviews, and comments
+    - Extensive class library, covering a wide range of topics
+
+
+- name: MasterClass
+  image: https://upload.wikimedia.org/wikipedia/commons/d/d6/MasterClass_Logo.jpg
+  link: https://www.masterclass.com
+  offering: An online platform offering expert-led courses on creativity, business, science, and more.
+  unique_value:
+    - Taught by professionals and celebrities, learn from the best
+    - Personalized recommendations, tailored learning experience
+
+- name: Domestica
+  image: https://cdn2.domestika.org/assets/og/home-a482a0b516638954b3916e31a53d16e0ace5fcabbc8a7d15f448a87dba5be0b6.png
+  link: https://www.domestika.org
+  offering: Creative learning platform that offers certified courses and vibrant community space.
+  unique_value:
+    - Certificates for course completion
+    - Large community space for contests, projects etc.
+
+
+- name: Craftsy
+  image: https://www.craftsy.com/images/favicons/craft.png
+  link: https://www.craftsy.com
+  offering: A learning platform offering courses mainly in crafts and DIY projects.
+  unique_value:
+    - Focused on crafts and DIY
+    - Resources beyond courses - patterns, articles, etc.

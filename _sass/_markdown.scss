@@ -22,7 +22,7 @@
     background: $secondary;
   }
 
-  :not(.carousel-item) > img:not(.emoji) {
+  :not(.carousel-item) > img:not(.emoji):not(.card-img-top) {
     display: block;
     max-width: 100%;
     // height: auto;

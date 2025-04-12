@@ -1,0 +1,8 @@
+<div>
+    {% for item in include.source %}
+        <p>
+            Our <strong class="text-themed-pink">{{ item.product }}</strong> will let users <strong class="text-themed-blue">{{ item.action }}</strong>, which will affect
+            <strong class="text-themed-purple">{{ item.user }}</strong> by <strong class="text-themed-green">{{ item.effect }}</strong>. We will measure effectiveness by <strong class="text-themed-yellow">{{ item.measurement }}</strong>.
+        </p>
+    {% endfor %}
+</div>

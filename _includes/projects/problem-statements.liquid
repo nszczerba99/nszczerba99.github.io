@@ -1,0 +1,8 @@
+<div>
+    {% for item in include.source %}
+        <p>
+            <strong class="text-themed-pink">{{ item.username }}</strong> is <strong class="text-themed-blue">{{ item.characteristics }}</strong>
+            who needs <strong class="text-themed-purple">{{ item.need }}</strong> because <strong class="text-themed-green">{{ item.insight }}</strong>.
+        </p>
+    {% endfor %}
+</div>

@@ -1,0 +1,17 @@
+- problem: No option to dismiss challenges
+  description: After completing all course lessons, users see a popup informing them that challenges have unlocked. However, the popup only offers a “View Challenges” button, forcing users into that section. Many users felt pressured and wanted an option to dismiss the popup without being redirected.
+  image:
+    src: https://i.imgur.com/BzX7zHH.png
+    alt: Popup informing users about unlocked challenges with no dismiss option.
+
+- problem: Inspiration Board is not intuitive
+  description: First-time users were confused about where pinned posts go. The app does not clearly inform them that pinned posts are saved to the Inspiration Board. Users need clearer guidance to understand this feature.
+  image:
+    src: https://i.imgur.com/N1guQD8.png
+    alt: Pinned posts feature showing confusion about the Inspiration Board.
+
+- problem: Inconsistent "Mark as Done" button placement
+  description: The "Mark as Done" button is placed differently in lessons (bottom of the screen) and challenges (top of the screen). While the intention was to match different user flows, this inconsistency confused users. They expect the button to be in the same location across lessons and challenges for a smoother experience.
+  image:
+    src: https://i.imgur.com/SAXmn70.png
+    alt: Inconsistent placement of the 'Mark as Done' button across screens.

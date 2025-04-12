@@ -1,0 +1,23 @@
+<div class="row">
+{% assign delay = 0 %}
+    {% for item in include.source %}
+        {% assign delay = delay | plus: 200 %}
+        <div class="col-12 col-sm-6 col-lg-3 mb-4 wow animate__animated animate__pulse" data-wow-delay="{{ delay }}ms">
+            <div class="card">
+                <img src="{{ item.image }}" alt="{{ item.name }} logo" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title h5">{{ item.name }}</p>
+                    <p class="card-subtitle mb-2 text-body-secondary h6">{{ item.offering }}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    {% for value in item.unique_value %}
+                        <li class="list-group-item">{{ value }}</li>
+                    {% endfor %}
+                </ul>
+                <div class="card-footer py-3">
+                    <a href="{{ item.link }}" target="_blank" class="card-link">{{ item.link | remove: "https://" }}</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

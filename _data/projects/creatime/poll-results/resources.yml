@@ -1,0 +1,19 @@
+- name: Step-by-step tutorials or guides
+  percentage: 88.9
+  color: 4a1bdb
+
+- name: Community support (e.g. forums, groups)
+  percentage: 77.8
+  color: 4a1bdb
+
+- name: Live tutoring or mentorship
+  percentage: 55.6
+  color: 4a1bdb
+
+- name: Creative challenges or prompts
+  percentage: 44.4
+  color: 4a1bdb
+  
+- name: Inspiration and motivation (e.g. success stories, quotes)
+  percentage: 11.1
+  color: 4a1bdb

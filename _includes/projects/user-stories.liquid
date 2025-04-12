@@ -1,0 +1,9 @@
+<div>
+    {% for item in include.source %}
+        <p>
+            As <strong class="text-themed-blue">{{ item.who }}</strong>,
+            I want <strong class="text-themed-purple">{{ item.need }}</strong>,
+            so <strong class="text-themed-green">{{ item.benefit }}</strong>.
+        </p> 
+    {% endfor %}
+</div>
