@@ -17,7 +17,7 @@ weight: 3
 
 Hi, I'm **{{ site.author.name }}** :wave:,<br>
 
-I'm a **Software Engineer** by background, with a strong passion for **frontend development** and a long-standing interest in how **visual experiences** impact users. Over time, I've developed a deep understanding of **UX Design** and how thoughtful design choices enhance user interaction and satisfaction.
+I’m a **UX Designer** with a background in **Software Engineering**. My previous experience in **frontend development** and my long-standing interest in how **visual experiences** impact users naturally led me toward UX. Over time, I’ve developed a deep understanding of **UX Design** and how thoughtful design choices enhance user interaction and satisfaction.
 
 I believe my engineering background gives me a **unique perspective on UX**, enabling me to bridge the gap between design and development teams. I bring a collaborative approach that ensures user-centered solutions are both **visually coherent** and **technically feasible**.
 
