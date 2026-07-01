@@ -1,15 +1,15 @@
 - name: Version 1
   percentage: 20
   color: 961a46
-  image: https://i.imgur.com/mHzrKbB.png
+  image: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-look-1.webp
 
 - name: Version 2
   percentage: 80
   color: 4a1bdb
-  image: https://i.imgur.com/t1TSzkD.png
+  image: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-look-2.webp
 
 
 - name: Version 3
   percentage: 0
   color: acdb1b
-  image: https://i.imgur.com/GZ7PKLT.png
+  image: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-look-3.webp

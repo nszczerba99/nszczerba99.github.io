@@ -1,13 +1,13 @@
 ---
 name: SaveUp Mobile App
 tools: []
-image: https://i.imgur.com/XcBBke0.png
+image: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/cover.webp
 description: Mobile app that helps friend or family groups save up for a common goal.
 ---
 
 {% include projects/project-navigation.liquid %}
 
-![SaveUp app project thumbnail](https://i.imgur.com/XcBBke0.png)
+![SaveUp app project thumbnail](https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/cover.webp)
 
 {% include tags.liquid source=site.data.projects.saveup-mobile.tags %}
 
@@ -43,10 +43,10 @@ I identified **two** distinct target users: Alex and Sofia.
 
 <div class="row row-cols-1 row-cols-md-2 mb-4">
     <div class="col">
-        {% include animated-image.liquid src="https://i.imgur.com/lkslwDX.png" alt="User persona: Alex" %}
+        {% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/alex.webp" alt="User persona: Alex" %}
     </div>
     <div class="col">
-        {% include animated-image.liquid src="https://i.imgur.com/a24hsSe.png" alt="User persona: Sofia" %}
+        {% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/sofia.webp" alt="User persona: Sofia" %}
     </div>
 </div>
 
@@ -67,7 +67,7 @@ For both user personas, I mapped out their **user journeys** to understand **the
 
 I sketched my various **ideas** using the **"Crazy Eights"** exercise. Afterward, I analyzed which concepts had the **most potential** and determined the best direction for the app.
 
-{% include animated-image.liquid src="https://i.imgur.com/rlSBW8C.jpeg" alt="Rapid sketching exercise" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/crazy8.webp" alt="Rapid sketching exercise" %}
 
 ## Wireframing
 
@@ -109,7 +109,7 @@ Using the **low-fidelity prototype**, I conducted a **usability study** with **f
 
 Later, I organized all my findings into an **affinity diagram** and identified **common themes**.
 
-{% include animated-image.liquid src="https://i.imgur.com/fYqcApW.png" alt="Affinity diagram" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/affinity-map.webp" alt="Affinity diagram" %}
 
 ### Key insights
 
@@ -123,8 +123,8 @@ I **updated the designs** to address the identified pain points and then started
 
 Before creating the mockups, I focused on the **visual design** of the app, selecting the color palette, typography, and iconography. I also defined key navigation elements and UI components that would be used consistently throughout the app, ensuring a cohesive and user-friendly experience.
 
-{% include animated-image.liquid src="https://i.imgur.com/XxdVMjk.png" alt="Stickersheet: Part 1" %}
-{% include animated-image.liquid src="https://i.imgur.com/Rj3JItD.png" alt="Stickersheet: Part 2" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/stickersheet1.webp" alt="Stickersheet: Part 1" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/stickersheet2.webp" alt="Stickersheet: Part 2" %}
 
 After finalizing the visual design elements, I was able to create the app’s mockups.
 
@@ -143,11 +143,11 @@ The study revealed that users are still **confused** about **goal modes** (*Goal
 <div class="row my-5">
     <div class="col-md-6 wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
         <p class="lead text-center">Before</p>
-        <img src="https://i.imgur.com/0YgECy8.png" alt="Goal modes before" class="phone-rounded">
+        <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/goal-modes-before.webp" alt="Goal modes before" class="phone-rounded">
     </div>
     <div class="col-md-6 wow animate__animated animate__fadeInRight" data-wow-delay=".4s">
         <p class="lead text-center">After</p>
-        <img src="https://i.imgur.com/K47oNoB.png" alt="Goal modes' new look" class="phone-rounded">
+        <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/goal-modes-after.webp" alt="Goal modes' new look" class="phone-rounded">
     </div>
 </div>
 
@@ -162,11 +162,11 @@ I’ve decided to **remove** this option from the app since it caused a lot of *
 <div class="row my-5">
     <div class="col-md-6 wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
         <p class="lead text-center">Before</p>
-        <img src="https://i.imgur.com/I5n0lqE.png" alt="Balance section before">
+        <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/balance-before.webp" alt="Balance section before">
     </div>
     <div class="col-md-6 wow animate__animated animate__fadeInRight" data-wow-delay=".4s">
         <p class="lead text-center">After</p>
-        <img src="https://i.imgur.com/9Rm9ACc.png" alt="Balance section's new look">
+        <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/balance-after.webp" alt="Balance section's new look">
     </div>
 </div>
 

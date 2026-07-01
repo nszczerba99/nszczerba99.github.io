@@ -1,13 +1,13 @@
 ---
 name: Spotify Redesign
 tools: []
-image: https://i.imgur.com/81QiOBv.png
+image: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/cover.webp
 description: Redesign of the Spotify Desktop App. New, improved version of the most popular music streaming platform.
 ---
 
 {% include projects/project-navigation.liquid %}
 
-![Spotify Redesign project thumbnail](https://i.imgur.com/81QiOBv.png)
+![Spotify Redesign project thumbnail](https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/cover.webp)
 
 {% include tags.liquid source=site.data.projects.spotify.tags %}
 
@@ -19,7 +19,7 @@ This project was part of a **mentorship program** at my workplace, where I was p
 
 <div class="row align-items-center">
     <div class="col-sm-3 col-12">
-      {% include animated-image.liquid src="https://i.imgur.com/TSEpwpl.png" alt="A frustrated Spotify user struggling to navigate the app." %}
+      {% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/spotify-problem.webp" alt="A frustrated Spotify user struggling to navigate the app." %}
     </div>
     <div class="col-sm-9 col-12">
         Spotify is one of the most popular <strong>music streaming platforms</strong>, but it’s not without its <strong>pain points</strong>. Many users struggle with aspects of its interface, navigation, and discoverability. This project aimed to <strong>identify and address</strong> these <strong>common frustrations</strong>, enhancing the overall user experience to <strong>make Spotify more intuitive, enjoyable, and seamless</strong>.
@@ -61,11 +61,11 @@ To address this, I added **a new tile** next to the *Latest episode* called *Con
 
 <div class="wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
     <p class="lead text-center">Before</p>
-    <img src="https://i.imgur.com/jPhPT2C.png" alt="Podcast page before">
+    <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-before-desktop.webp" alt="Podcast page before">
 </div>
 <div class="wow animate__animated animate__fadeInRight mt-3 mb-5" data-wow-delay=".4s">
     <p class="lead text-center">After</p>
-    <img src="https://i.imgur.com/OcJhlfd.png" alt="Podcast page's new layout">
+    <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-after-desktop.webp" alt="Podcast page's new layout">
 </div>
 
 To ensure the **responsiveness** of the app, here’s how this design **adapts** to **smaller screens**:
@@ -73,11 +73,11 @@ To ensure the **responsiveness** of the app, here’s how this design **adapts**
 <div class="row row-cols-1 row-cols-md-2 mt-4 mb-3">
   <div class="col wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
     <p class="lead text-center">Before</p>
-    <img src="https://i.imgur.com/VzOOVeK.png" alt="Podcast page on smaller screens before">
+    <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-before-mobile.webp" alt="Podcast page on smaller screens before">
   </div>
   <div class="col wow animate__animated animate__fadeInRight" data-wow-delay=".4s">
       <p class="lead text-center">After</p>
-      <img src="https://i.imgur.com/M7hyLub.png" alt="Podcast page's new layout on smaller screens">
+      <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-after-mobile.webp" alt="Podcast page's new layout on smaller screens">
   </div>
 </div>
 
@@ -87,10 +87,10 @@ I also introduced a way for users to **group their podcasts**, not just individu
 
  <div class="row mt-4">
     <div class="col-sm-12 col-md-6">
-        {% include animated-image.liquid src="https://i.imgur.com/TSYI9Qr.png" alt="Folder with podcasts in a library" %}
+        {% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/library-with-podcasts.webp" alt="Folder with podcasts in a library" %}
     </div>
     <div class="col-sm-12 col-md-6">
-        {% include animated-image.liquid src="https://i.imgur.com/A164nVp.png" alt="View inside a folder with podcasts" %}
+        {% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/library-podcast-folder.webp" alt="View inside a folder with podcasts" %}
     </div>
 </div>
 
@@ -99,7 +99,7 @@ I also introduced a way for users to **group their podcasts**, not just individu
 To address the common complaint about the lack of separation between music and podcasts, I ensured that podcast entities were easily **distinguishable** from playlists and other content.\
 I proposed **three designs** for how podcasts/podcast episodes should be presented on the Home page.
 
-{% include animated-image.liquid src="https://i.imgur.com/lX0UfBM.png" alt="Podcast new look" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-look-versions.webp" alt="Podcast new look" %}
 
 ### New Home sections
 
@@ -109,16 +109,16 @@ In the designs presented below, you'll notice that I also added some **customiza
 - **drag icons** next to each section allowing users to reorder them
 - **close buttons** letting users hide certain sections from the Home screen.
 
-{% include animated-image.liquid src="https://i.imgur.com/JMXRQJN.png" alt="Suggested podcasts section" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/suggested-podcasts.webp" alt="Suggested podcasts section" %}
 
-{% include animated-image.liquid src="https://i.imgur.com/oSOIMdT.png" alt="More like X podcast section" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/more-like-podcasts.webp" alt="More like X podcast section" %}
 
 
 ### *Choose what to see on Home* panel
 
 Similarly, I designed a new "Choose what to see" panel, positioned at the bottom of the Home page. This feature would empower users to select which sections exactly they want to see on the Home page.
 
-{% include animated-image.liquid src="https://i.imgur.com/WDhm5GR.png" alt="Choose what to see on Home panel" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/customize-home.webp" alt="Choose what to see on Home panel" %}
 
 ### Excluding from recommendations
 
@@ -126,11 +126,11 @@ The **"Exclude from your taste profile"** option is currently available **only f
 
 #### Podcasts
 
-{% include animated-image.liquid src="https://i.imgur.com/HdWfaq3.png" alt="'Exclude from your taste profile' option for podcasts" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-exclude.webp" alt="'Exclude from your taste profile' option for podcasts" %}
 
 #### Artists
 
-{% include animated-image.liquid src="https://i.imgur.com/BRxck0S.png" alt="'Exclude from your taste profile' option for artists" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/artist-exclude.webp" alt="'Exclude from your taste profile' option for artists" %}
 
 <br/>
 
@@ -157,9 +157,9 @@ One of the **accessibility concerns** raised during the research was the absence
 
 #### Podcast transcript feature
 
-{% include animated-image.liquid src="https://i.imgur.com/HsCjkOI.png" alt="Podcast transcript option on the play bar" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/transcription-feature.webp" alt="Podcast transcript option on the play bar" %}
 
-{% include animated-image.liquid src="https://i.imgur.com/dKv6L7J.png" alt="Podcast transcript" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/transcription.webp" alt="Podcast transcript" %}
 
 ## Testing
 

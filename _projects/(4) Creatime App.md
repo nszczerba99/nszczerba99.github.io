@@ -1,13 +1,13 @@
 ---
 name: Creatime App
 tools: []
-image: https://i.imgur.com/GiOkn68.png
+image: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/creatime-app/cover.webp
 description: A mobile app that helps tutor adults in creativity.
 ---
 
 {% include projects/project-navigation.liquid %}
 
-![Creatime app project thumbnail](https://i.imgur.com/GiOkn68.png)
+![Creatime app project thumbnail](https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/creatime-app/cover.webp)
 
 {% include tags.liquid source=site.data.projects.creatime.tags %}
 
@@ -27,7 +27,7 @@ This topic stood out to me because I found it **personally compelling**, and I k
 
 <div class="row align-items-center">
     <div class="col-md-2 col-sm-4 col-12">
-      {% include animated-image.liquid src="https://i.imgur.com/SzCVegF.png" alt="A frustrated adult struggling to find time and motivation for creative pursuits." %}
+      {% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/creatime-app/problem.webp" alt="A frustrated adult struggling to find time and motivation for creative pursuits." %}
     </div>
     <div class="col-md-10 col-sm-8 col-12">
         Being <strong>creative as an adult</strong> is challenging. <strong>Full-time jobs</strong> leave <strong>little time and energy</strong> for creative pursuits, and many people struggle with <strong>motivation and self-doubt</strong>. My goal was to address these obstacles by designing a solution that helps adults <strong>reclaim their creativity</strong> in today’s <strong>fast-paced world</strong>.
@@ -52,7 +52,7 @@ I sent a **survey** to **9 participants** to identify the **challenges** hinderi
 
 I compiled all the survey data into an **affinity map**, identifying **patterns and common themes**.
 
-{% include animated-image.liquid src="https://i.imgur.com/6ZcljNd.png" alt="Affinity map" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/creatime-app/affinity-map.webp" alt="Affinity map" %}
 
 ### Key insights
 
@@ -62,9 +62,9 @@ I compiled all the survey data into an **affinity map**, identifying **patterns 
 
 Based on my research, I identified **two** unique user personas: **Ji-hye and Rohan**.
 
-{% include animated-image.liquid src="https://i.imgur.com/J2G9iPN.png" alt="User persona: Ji-hye Kim" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/creatime-app/ji-hye.webp" alt="User persona: Ji-hye Kim" %}
 
-{% include animated-image.liquid src="https://i.imgur.com/bFoZV0Y.png" alt="User persona: Rohan Patel" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/creatime-app/rohan.webp" alt="User persona: Rohan Patel" %}
 
 <br/>
 Based on the user personas, I outlined the following **problem statements**:
@@ -97,13 +97,13 @@ The next step involved a **competitive audit**, where I analyzed my app's compet
 
 Next, keeping the **user's needs** in mind, I performed the **"Crazy Eights"** exercise to generate a **wide range of ideas**, then **reviewed** them to select the most promising ones.
 
-{% include animated-image.liquid src="https://i.imgur.com/SSoYbaF.jpeg" alt="Crazy Eights exercise" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/creatime-app/crazy8.webp" alt="Crazy Eights exercise" %}
 
 ## Understanding user flows
 
 I mapped out the **key user flows**, such as completing a lesson, or posting a user's work. Below is one of the user flows I outlined, illustrating the process of **finding and enrolling in a course**.
 
-{% include animated-image.liquid src="https://i.imgur.com/vjrxYjo.png" alt="User flow of finding a course and enrolling in it." %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/creatime-app/user-flow.webp" alt="User flow of finding a course and enrolling in it." %}
 
 ## Wireframing
 
@@ -131,9 +131,9 @@ I **outlined solutions** for **each user pain point** and then moved on to devel
 
 In designing the **UI**, I aimed to create an experience that feels **creative, playful, and fun** - more like a **game** than a pressured learning tool. I chose a **bright color palette** to reinforce this feeling and intentionally incorporated **game-like elements** throughout. For example, **ratings** use **puzzle pieces** instead of stars, **lessons** resemble a **board game**, and **challenges** are styled like **game cards**. Even the **logo** features **dot elements** that subtly reference **board game mechanics**, mirroring the **course structure**. My goal was to keep everything **visually engaging, lively, and stress-free**.  
 
-{% include animated-image.liquid src="https://i.imgur.com/mGRTRqw.png" alt="Stickersheet: Part 1" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/creatime-app/stickersheet1.webp" alt="Stickersheet: Part 1" %}
 
-{% include animated-image.liquid src="https://i.imgur.com/wJw2uJN.png" alt="Stickersheet: Part 2" %}
+{% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/creatime-app/stickersheet2.webp" alt="Stickersheet: Part 2" %}
 
 ## Final designs
 
