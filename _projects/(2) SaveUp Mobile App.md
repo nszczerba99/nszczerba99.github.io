@@ -52,7 +52,7 @@ I identified **two** distinct target users: Alex and Sofia.
 
 I compiled Alex and Sofia's key problems and needs into **user stories**, which are presented below.
 
-{% include cards.liquid source=site.data.projects.saveup-mobile.user-stories %}
+{% include cards-2-cols.liquid source=site.data.projects.saveup-mobile.user-stories %}
 
 ## Coming up with ideas
 
@@ -115,7 +115,7 @@ Later, I organized all my findings into an **affinity diagram** and identified *
 
 I uncovered several key insights through my research, which are outlined below.
 
-{% include projects/insights.liquid source=site.data.projects.saveup-mobile.insights %}
+{% include cards-3-cols.liquid source=site.data.projects.saveup-mobile.insights %}
 
 I **updated the designs** to address the identified pain points and then started working on **mockups** that more closely aligned with the final product.
 

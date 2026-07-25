@@ -40,7 +40,7 @@ As illustrated above, users had numerous complaints across various areas of the 
 
 ### Key insights
 
-{% include cards.liquid source=site.data.projects.spotify.problems %}
+{% include cards-2-cols.liquid source=site.data.projects.spotify.problems %}
 
 <br/>
 

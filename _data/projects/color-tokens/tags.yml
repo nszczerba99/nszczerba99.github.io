@@ -1,0 +1,14 @@
+- name: "Project"
+  value: "Color tokens implementation"
+
+- name: "Role"
+  value: "Software Engineer"
+
+- name: "Duration"
+  value: "3 months"
+
+- name: "Year"
+  value: "2024"
+
+- name: "Company"
+  value: "Qualtrics"

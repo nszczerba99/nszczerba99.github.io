@@ -56,7 +56,7 @@ I compiled all the survey data into an **affinity map**, identifying **patterns 
 
 ### Key insights
 
-{% include projects/insights.liquid source=site.data.projects.creatime.insights1 %}
+{% include cards-2-cols.liquid source=site.data.projects.creatime.insights1 %}
 
 ### Target users
 
@@ -123,7 +123,7 @@ For the study, I used a **low-fidelity prototype**, created from my digital wire
 
 ### Insights
 
-{% include projects/insights.liquid source=site.data.projects.creatime.insights2 %}
+{% include cards-3-cols.liquid source=site.data.projects.creatime.insights2 %}
 
 I **outlined solutions** for **each user pain point** and then moved on to developing the **visual design** and **app mockups** that bring those solutions to life.
 
@@ -159,7 +159,7 @@ Based on the mockups, I created a **high-fidelity prototype** showcasing the key
 
 ### Meeting user needs
 
-{% include projects/insights.liquid source=site.data.projects.creatime.insights3 %}
+{% include cards-2-cols.liquid source=site.data.projects.creatime.insights3 %}
 
 ## Lessons learnt
 

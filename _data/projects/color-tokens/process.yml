@@ -1,0 +1,11 @@
+- title: 1) Defining the new token system
+  description: The UX team designed the new color token structure and mapped the existing color palette to the new base and semantic tokens.
+
+- title: 2) Bringing the tokens into the codebase
+  description: My role was to translate that system into code by creating a centralized source of truth for color tokens. This replaced fragmented token libraries used across different teams with a unified implementation.
+
+- title: 3) Updating the design system
+  description: Next, I updated the design system components to use the new semantic tokens, replacing legacy colors with the new architecture. Applying the tokens across real components helped uncover inconsistencies and edge cases that weren't apparent earlier. I worked closely with the UX team to refine the token definitions and validate the visual result before the new system was finalized.
+
+- title: 4)  Releasing and documenting the tokens
+  description: Finally, the updated tokens were released as part of the public design system package. A software engineer on my team documented the new color token architecture on the official company design system website, making it easy for anyone to understand and adopt.

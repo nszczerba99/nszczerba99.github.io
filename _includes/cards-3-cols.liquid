@@ -1,0 +1,19 @@
+<div class="row">
+    {% assign delay = 0 %}
+    {% for card in include.source %}
+        {% assign delay = delay | plus: 200 %}
+        <div class="col-12 col-md-6 col-lg-4 mb-4 wow animate__animated animate__pulse" data-wow-delay="{{ delay }}ms">
+            <div class="card h-100">
+                {% if card.image %}
+                    <img src="{{ card.image.src }}" alt="{{ card.image.alt }}" height="250">
+                {% endif %}
+                <div class="card-body">
+                    {% if card.title %}
+                        <p class="card-text">{{ card.title }}</p>  
+                    {% endif %}
+                    <p class="card-text text-body-secondary small">{{ card.description }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
