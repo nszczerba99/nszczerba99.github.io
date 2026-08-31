@@ -171,3 +171,5 @@ In this project, I relied heavily on a **survey** for foundational **research**,
 
 ### AI-generated text over *Lorem Ipsum*  
 For this project, I decided to replace the traditional ***Lorem Ipsum*** placeholder text with **AI-generated content**. This decision was inspired by a **course** I took on AI, which gave me new insights into its potential. Using AI-generated text not only **saved time** but also ensured that the content felt more **relevant and realistic**. Additionally, *Lorem Ipsum* can sometimes **confuse users** who aren't familiar with it, and using meaningful text helped create a **more authentic experience**. Going forward, I’ll continue utilizing AI-generated content in my future projects.
+
+{% include projects/ai-disclosure.liquid %}

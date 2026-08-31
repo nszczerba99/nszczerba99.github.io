@@ -19,7 +19,7 @@ This project was part of a **mentorship program** at my workplace, where I was p
 
 <div class="row align-items-center">
     <div class="col-sm-3 col-12">
-      {% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/spotify-problem.webp" alt="A frustrated Spotify user struggling to navigate the app." %}
+      {% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/spotify-problem.webp" alt="A frustrated Spotify user struggling to navigate the app."%}
     </div>
     <div class="col-sm-9 col-12">
         Spotify is one of the most popular <strong>music streaming platforms</strong>, but it’s not without its <strong>pain points</strong>. Many users struggle with aspects of its interface, navigation, and discoverability. This project aimed to <strong>identify and address</strong> these <strong>common frustrations</strong>, enhancing the overall user experience to <strong>make Spotify more intuitive, enjoyable, and seamless</strong>.
@@ -58,27 +58,34 @@ Previously, many podcasts were configured to display **only the latest episode a
 
 To address this, I added **a new tile** next to the *Latest episode* called *Continue listening*. This solution caters to both users interested in the latest episodes and those wanting to resume their last listened episode.
 
-
-<div class="wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
-    <p class="lead text-center">Before</p>
-    <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-before-desktop.webp" alt="Podcast page before">
-</div>
-<div class="wow animate__animated animate__fadeInRight mt-3 mb-5" data-wow-delay=".4s">
-    <p class="lead text-center">After</p>
-    <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-after-desktop.webp" alt="Podcast page's new layout">
-</div>
+{% include animated-image.liquid
+    src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-before-desktop.webp"
+    alt="Podcast page before"
+    title="Before"
+    effect="animate__fadeInLeft"
+%}
+{% include animated-image.liquid
+    src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-after-desktop.webp"
+    alt="Podcast page's new layout"
+    title="After"
+    effect="animate__fadeInRight"
+%}
 
 To ensure the **responsiveness** of the app, here’s how this design **adapts** to **smaller screens**:
 
 <div class="row row-cols-1 row-cols-md-2 mt-4 mb-3">
-  <div class="col wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
-    <p class="lead text-center">Before</p>
-    <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-before-mobile.webp" alt="Podcast page on smaller screens before">
-  </div>
-  <div class="col wow animate__animated animate__fadeInRight" data-wow-delay=".4s">
-      <p class="lead text-center">After</p>
-      <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-after-mobile.webp" alt="Podcast page's new layout on smaller screens">
-  </div>
+    {% include animated-image.liquid
+        src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-before-mobile.webp"
+        alt="Podcast page on smaller screens before"
+        title="Before"
+        effect="animate__fadeInLeft"
+    %}
+    {% include animated-image.liquid
+        src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/spotify-redesign/podcast-after-mobile.webp"
+        alt="Podcast page's new layout on smaller screens"
+        title="After"
+        effect="animate__fadeInRight"
+    %}
 </div>
 
 ### Podcasts in folders
@@ -193,3 +200,4 @@ On a positive note, being a **Spotify user** myself also provided **motivation**
 
 Ultimately, this project was a fantastic **learning opportunity**. It taught me a lot about the **design process** and allowed me to explore **Figma’s features** in depth. I also received valuable **guidance** from my **mentor** throughout the project, which helped me deepen my understanding of UX design and refine my approach to **user-centered solutions**.
 
+{% include projects/ai-disclosure.liquid %}

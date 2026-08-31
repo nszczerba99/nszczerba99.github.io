@@ -1,3 +1,11 @@
 <div class="wow animate__animated {{ include.effect | default: 'animate__fadeIn'}}" data-wow-delay="{{ include.delay | default: 0.25 }}s">
-    <img src="{{ include.src }}" alt="{{ include.alt }}" class="{{ include.classes | default: '' }}">
+    {% if include.title %}
+        <p class="lead text-center">{{ include.title }}</p>    
+    {% endif %}
+    {% if include.caption %}
+        <img src="{{ include.src }}" alt="{{ include.alt }}" class="{{ include.classes | default: '' }} mb-2">
+        <p class="caption text-end">{{ include.caption }}</p>
+    {% else %}
+        <img src="{{ include.src }}" alt="{{ include.alt }}" class="{{ include.classes | default: '' }}">
+    {% endif %}
 </div>

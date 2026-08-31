@@ -19,7 +19,7 @@ This project was completed during my time as a **Software Engineer** at **Qualtr
 
 <div class="row">
     <div class="col-md-6 col-12">
-      {% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/color-tokens/challenge.webp" alt="Colors scattered randomly on a canvas." %}
+      {% include animated-image.liquid src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/color-tokens/challenge.webp" alt="Colors scattered randomly on a canvas."%}
     </div>
     <div class="col-md-6 col-12">
       <p class="lead">Colors scattered across multiple codebases</p>
@@ -126,3 +126,5 @@ I gained practical experience designing and implementing a scalable color token 
 ### Building for future theming
 
 This project deepened my understanding of how a well-structured token system enables features like dark mode without increasing implementation complexity.
+
+{% include projects/ai-disclosure.liquid %}

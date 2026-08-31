@@ -1,0 +1,8 @@
+- title: Today's performance
+  description: KPIs and charts such as average transaction value and returns rate
+
+- title: Tasks requiring attention
+  description: Pending orders, shipments, documents on hold, and other unfinished activities
+
+- title: Store manager assignments
+  description: Tasks assigned to staff by a store manager

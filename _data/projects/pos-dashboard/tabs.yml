@@ -1,0 +1,21 @@
+- title: Analytics
+  description: Today's performance, KPIs, and charts.
+  image:
+    src: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/pos-dashboard/tab1.webp
+    alt: ""
+    height: 109
+
+- title: Sales operations
+  description: Pending orders, documents on hold, and cash drawer status.
+  image:
+    src: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/pos-dashboard/tab2.webp
+    alt: ""
+    height: 100
+
+
+- title: Backoffice tasks
+  description: Inventories, shipments, and staff assignments.
+  image:
+    src: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/pos-dashboard/tab3.webp
+    alt: ""
+    height: 100

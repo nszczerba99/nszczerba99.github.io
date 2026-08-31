@@ -31,7 +31,7 @@ Saving money can be challenging on its own, but saving as a group adds even more
 
 Since this project was part of **my coursework**, I handled **the entire design process** from **start to finish**. This included conducting user research, designing the app’s structure and interactions, and refining the UI with thoughtful choices in color, typography, and overall visual design.
 
-## Foundational Research
+## Foundational research
 
 The course provided a set of fictional user profiles, which served as the foundation for my research. Using empathy exercises, I analyzed these profiles to better understand user needs, motivations, and pain points. This process led to the creation of the following empathy maps and user personas.
 
@@ -141,13 +141,24 @@ From the mockups, I developed a **high-fidelity prototype**, which I then used f
 The study revealed that users are still **confused** about **goal modes** (*Goal Contribution Style* and *Savings Visibility Mode*) and their purpose.To improve clarity, I rewrote the mode **descriptions** in more **user-friendly** language and added visual **illustrations** for better understanding.
 
 <div class="row my-5">
-    <div class="col-md-6 wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
-        <p class="lead text-center">Before</p>
-        <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/goal-modes-before.webp" alt="Goal modes before" class="phone-rounded">
+    <div class="col-md-6">
+        {% include animated-image.liquid
+            src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/goal-modes-before.webp"
+            alt="Goal modes before"
+            title="Before"
+            classes="phone-rounded"
+            effect="animate__fadeInLeft"
+        %}
     </div>
-    <div class="col-md-6 wow animate__animated animate__fadeInRight" data-wow-delay=".4s">
-        <p class="lead text-center">After</p>
-        <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/goal-modes-after.webp" alt="Goal modes' new look" class="phone-rounded">
+    <div class="col-md-6">
+        {% include animated-image.liquid
+            src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/goal-modes-after.webp"
+            alt="Goal modes' new look"
+            title="After"
+            classes="phone-rounded"
+            effect="animate__fadeInRight"
+            container_classes="col-md-6"
+        %}
     </div>
 </div>
 
@@ -160,13 +171,23 @@ Instead of generating transfers to settle balances, this option adjusted each me
 I’ve decided to **remove** this option from the app since it caused a lot of **confusion** without providing much value.
 
 <div class="row my-5">
-    <div class="col-md-6 wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
-        <p class="lead text-center">Before</p>
-        <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/balance-before.webp" alt="Balance section before">
+    <div class="col-md-6">
+        {% include animated-image.liquid
+            src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/balance-before.webp"
+            alt="Balance section before"
+            title="Before"
+            effect="animate__fadeInLeft"
+            delay=".4s"
+        %}
     </div>
-    <div class="col-md-6 wow animate__animated animate__fadeInRight" data-wow-delay=".4s">
-        <p class="lead text-center">After</p>
-        <img src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/balance-after.webp" alt="Balance section's new look">
+    <div class="col-md-6">
+        {% include animated-image.liquid
+            src="https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/saveup-mobile-app/balance-after.webp"
+            alt="Balance section's new look"
+            title="After"
+            effect="animate__fadeInRight"
+            delay=".4s"
+        %}
     </div>
 </div>
 
