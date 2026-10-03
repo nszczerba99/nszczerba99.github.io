@@ -1,0 +1,17 @@
+- title: Destructive close
+  description: The X button didn't just close a panel — it also removed its icon from the toolbar. To users, the feature simply vanished.
+  image:
+    src: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/erp-panels/destructive-close.webp
+    alt: "Recording: closing the Messages panel with the X button also removes its icon from the toolbar."
+
+- title: Buried configuration
+  description: Toolbar configuration was hard to find and unintuitive — general and app-specific views were persisted globally, even though app-specific ones exist per application.
+  image:
+    src: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/erp-panels/buried-configuration.webp
+    alt: "Recording: finding the dockable views configuration takes a trip through the user settings menu."
+
+- title: Confusing pinning
+  description: "The pin icon and its logic were confusing: a pinned panel behaved like a floating window, with its icon disappearing from the toolbar."
+  image:
+    src: https://cdn.jsdelivr.net/gh/nszczerba99/ux-portfolio-images@main/projects/erp-panels/confusing-pinning.webp
+    alt: "Recording: pinning a panel turns it into a floating window and its toolbar icon disappears."

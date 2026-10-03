@@ -1,0 +1,6 @@
+- title: "1) Redesign dockable views"
+  description: "Rethink the panel system as a whole — its logic, behavior and look — and bring it into the new design language."
+- title: "2) Redesign the Linked documents panel"
+  description: "The panel that shows a document's whole chain — originally called Voucher references chain — is essential for Sales orders and needed a redesign of its own."
+- title: "3) Design the table data organization panel"
+  description: "Multi-sort, grouping, and a home for the rest of the filters were a must for the redesigned list. I proposed a new dockable view for all three."
