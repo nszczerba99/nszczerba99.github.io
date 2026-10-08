@@ -1,15 +1,11 @@
-- name: HTML/CSS
-  percentage: 100
-  color: danger
-
-- name: JavaScript/TypeScript
+- name: HTML / CSS
   percentage: 100
   color: primary
 
-- name: React
-  percentage: 80
+- name: JavaScript / TypeScript
+  percentage: 100
   color: info
 
-- name: Python
+- name: React
   percentage: 80
   color: success
